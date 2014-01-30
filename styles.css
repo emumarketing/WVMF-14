@@ -1,0 +1,249 @@
+/*
+------------------------------------------------
+ Body Styles
+------------------------------------------------
+*/
+body {
+	background-image:url(images/extended-sky-small.jpg);
+	background-repeat: no-repeat;
+}
+
+nav {
+	width:100%;
+	height:50px;
+	background-color: #000;
+	margin:-50px 0px 0 -10px;
+	padding-right:20px;
+	text-align: center;
+	color:white;
+	position: fixed;
+	font-family: sans-serif;
+}
+
+
+/*
+------------------------------------------------
+Header Styles
+------------------------------------------------
+*/
+
+header {
+	background-image:url(images/wvmf-logo-450x450.png);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+	/*
+	------------------------------------------------
+	Header Text Styles
+	------------------------------------------------
+	*/
+	.headTxt {
+		font-size:60pt;
+		width:1000px;
+		margin-left: auto;
+		margin-right:auto;
+		text-align: center;
+		text-transform: uppercase;
+		color:white;
+		margin-top:50px;
+		font-family: sans-serif;
+	}
+
+	.headTxt span.smallHeadTxt {
+		font-size:25pt;
+		font-family: sans-serif;
+	}
+
+
+/*
+------------------------------------------------
+Main Page Text Styles
+------------------------------------------------
+*/
+.largeTxt {
+	color:white;
+	font-size: 70pt;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.medTxt {
+	color:white;
+	font-size: 28pt;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top:-10px;
+	font-family: sans-serif;
+}
+
+.smallTxt {
+	color:white;
+	font-size: 18pt;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+/*
+------------------------------------------------
+Bands Styles
+------------------------------------------------
+*/
+.bandsFeaturing {
+	text-transform: uppercase;
+	font-size: 12pt;
+	color: white;
+	float:left;
+	width:100px;
+	margin-top:20px;
+	padding:0 15px 0 25px;
+	font-family: sans-serif;
+}
+
+.bandName1 {
+	color:white;
+	font-size: 20pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left:310px;
+	float: left;
+	clear:left;
+	font-family: sans-serif;
+	margin-top:5px;
+}
+
+.bandName2 {
+	color:white;
+	font-size: 20pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	font-family: sans-serif;
+	margin-left:200px;
+	margin-top:5px;
+}
+
+.bandName3 {
+	color:white;
+	font-size: 20pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	float: left;
+	font-family: sans-serif;
+	margin-left:205px;
+	margin-top:5px;
+}
+
+
+/*
+------------------------------------------------
+Horzontal Line Styles
+------------------------------------------------
+*/
+.horizLineFull { 
+	background-image:url(images/horizontal_line.jpg);
+	background-repeat: repeat-x;
+	height: 1px;
+	width:1040px;
+	margin-top:10px;
+	margin-left:310px;
+	float:left;
+}
+
+.horizLineHalf1 { 
+	background-image:url(images/horizontal_line.jpg);
+	background-repeat: repeat-x;
+	height: 1px;
+	width:450px;
+	margin-top:30px;
+	margin-left:310px;
+	float:left;
+}
+.horizLineHalf2 {
+	background-image:url(images/horizontal_line.jpg);
+	background-repeat: repeat-x;
+	height: 1px;
+	width:450px;
+	margin-top:30px;
+	float:left;
+}
+
+/*
+------------------------------------------------
+Event Listing Styles
+------------------------------------------------
+*/
+
+.events1 {
+	color:white;
+	clear:left;
+	float:left;
+	margin-left:310px;
+	margin-top: 10px;
+	font-size: 15pt;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.events2 {
+	color:white;
+	float:left;
+	margin-left:190px;
+	margin-top: 10px;
+	font-size: 15pt;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.events3 {
+	color:white;
+	float:left;
+	margin-left:190px;
+	margin-top: 10px;
+	font-size: 15pt;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.events4 {
+	color:white;
+	float:left;
+	margin-left:190px;
+	margin-top: 10px;
+	font-size: 15pt;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+/*
+------------------------------------------------
+Coming Soon Styles
+------------------------------------------------
+*/
+.comingSoon {
+	color:white;
+	float: left;
+	font-size: 20pt;
+	font-family: sans-serif;
+	font-style: italic;
+	margin:30px auto 30px 310px;
+	width: 800px;
+}
+
+.comingSoon span.cs {}
+
+
