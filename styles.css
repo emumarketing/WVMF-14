@@ -6,6 +6,8 @@
 body {
 	background-image:url(images/extended-sky-small.jpg);
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 nav {
@@ -30,11 +32,27 @@ Header Styles
 header {
 	background-image:url(images/wvmf-logo-450x450.png);
 	background-repeat: no-repeat;
-	height: 450px;
-	width: 450px;
+	background-position: center;
+	background-size: cover;
+	width:450px;
+	height:450px;
 	margin-left: auto;
 	margin-right:auto;
 }
+
+	@media(max-width: 450px) {
+		header {
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+
+	@media(min-width: 451px) {
+		header {
+			max-width:451px;
+			max-height:451px;
+		}
+	}
 
 	/*
 	------------------------------------------------
@@ -43,7 +61,7 @@ header {
 	*/
 	.headTxt {
 		font-size:60pt;
-		width:1000px;
+		max-width:1000px;
 		margin-left: auto;
 		margin-right:auto;
 		text-align: center;
@@ -67,7 +85,7 @@ Main Page Text Styles
 .largeTxt {
 	color:white;
 	font-size: 70pt;
-	width:400px;
+	max-width:400px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
@@ -78,7 +96,7 @@ Main Page Text Styles
 .medTxt {
 	color:white;
 	font-size: 28pt;
-	width:400px;
+	max-width:400px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
@@ -90,7 +108,7 @@ Main Page Text Styles
 .smallTxt {
 	color:white;
 	font-size: 18pt;
-	width:400px;
+	max-width:400px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
@@ -108,7 +126,7 @@ Bands Styles
 	font-size: 12pt;
 	color: white;
 	float:left;
-	width:100px;
+	max-width:100px;
 	margin-top:20px;
 	padding:0 15px 0 25px;
 	font-family: sans-serif;
@@ -119,11 +137,11 @@ Bands Styles
 	font-size: 20pt;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-left:310px;
 	float: left;
 	clear:left;
 	font-family: sans-serif;
 	margin-top:5px;
+	width:33%;
 }
 
 .bandName2 {
@@ -133,8 +151,9 @@ Bands Styles
 	text-transform: uppercase;
 	float: left;
 	font-family: sans-serif;
-	margin-left:200px;
 	margin-top:5px;
+	width:33%;
+	text-align: center;
 }
 
 .bandName3 {
@@ -144,8 +163,9 @@ Bands Styles
 	text-transform: uppercase;
 	float: left;
 	font-family: sans-serif;
-	margin-left:205px;
 	margin-top:5px;
+	width:33%;
+	text-align: right;
 }
 
 
@@ -159,8 +179,7 @@ Horzontal Line Styles
 	background-repeat: repeat-x;
 	height: 1px;
 	width:1040px;
-	margin-top:10px;
-	margin-left:310px;
+	margin-top:30px;
 	float:left;
 }
 
@@ -168,19 +187,72 @@ Horzontal Line Styles
 	background-image:url(images/horizontal_line.jpg);
 	background-repeat: repeat-x;
 	height: 1px;
-	width:450px;
+	width:350px;
 	margin-top:30px;
-	margin-left:310px;
 	float:left;
 }
 .horizLineHalf2 {
 	background-image:url(images/horizontal_line.jpg);
 	background-repeat: repeat-x;
 	height: 1px;
-	width:450px;
+	width:350px;
 	margin-top:30px;
 	float:left;
-}
+}		
+	/*
+	------------------------------------------------
+	Horzontal Line Styles (Larger than 450px)
+	------------------------------------------------
+	*/
+	@media(min-width: 451px) {
+		.horizLineFull {
+			background-image:url(images/horizontal_line.jpg);
+			background-repeat: repeat-x;
+			height: 1px;
+			width:1040px;
+			margin-top:10px;
+			float:left;
+		}
+		.horizLineHalf1 { 
+			background-image:url(images/horizontal_line.jpg);
+			background-repeat: repeat-x;
+			height: 1px;
+			width:350px;
+			margin-top:30px;
+			float:left;
+		}
+		.horizLineHalf2 {
+			background-image:url(images/horizontal_line.jpg);
+			background-repeat: repeat-x;
+			height: 1px;
+			width:350px;
+			margin-top:30px;
+			float:left;
+		}
+	}
+	/*
+	------------------------------------------------
+	Horzontal Line Styles (Max 450px)
+	------------------------------------------------
+	*/
+	@media(max-width: 450px) {
+		.horizLineFull {
+			height: 1px;
+			width: auto;
+			float:left;
+		}
+		.horizLineHalf1 { 
+			height: 1px;
+			width: auto;
+			float:left;
+		}
+		.horizLineHalf2 {
+			height: 1px;
+			width: auto;
+			float:left;
+		}
+	}
+
 
 /*
 ------------------------------------------------
@@ -192,8 +264,8 @@ Event Listing Styles
 	color:white;
 	clear:left;
 	float:left;
-	margin-left:310px;
 	margin-top: 10px;
+	width:25%;
 	font-size: 15pt;
 	font-family: sans-serif;
 	text-transform: uppercase;
@@ -201,32 +273,38 @@ Event Listing Styles
 
 .events2 {
 	color:white;
+	display: block;
 	float:left;
-	margin-left:190px;
+	width:25%;
 	margin-top: 10px;
 	font-size: 15pt;
 	font-family: sans-serif;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .events3 {
 	color:white;
 	float:left;
-	margin-left:190px;
+	display: block;
+	width:25%;
 	margin-top: 10px;
 	font-size: 15pt;
 	font-family: sans-serif;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .events4 {
 	color:white;
 	float:left;
-	margin-left:190px;
+	display: block;
+	width:25%;
 	margin-top: 10px;
 	font-size: 15pt;
 	font-family: sans-serif;
 	text-transform: uppercase;
+	text-align:right;
 }
 
 /*
@@ -246,4 +324,13 @@ Coming Soon Styles
 
 .comingSoon span.cs {}
 
-
+/*
+-----------------------------------------------
+ID's
+-----------------------------------------------
+*/
+#wrapper {
+	max-width:1040px;
+	margin-left: auto;
+	margin-right: auto;
+}
