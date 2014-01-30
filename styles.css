@@ -30,29 +30,17 @@ Header Styles
 */
 
 header {
-	background-image:url(images/wvmf-logo-450x450.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	width:450px;
-	height:450px;
 	margin-left: auto;
 	margin-right:auto;
+	text-align: center;
 }
 
-	@media(max-width: 450px) {
-		header {
+	@media(max-width: 400px) {
+		header img{
 			max-width: 100%;
-			max-height: 100%;
 		}
 	}
 
-	@media(min-width: 451px) {
-		header {
-			max-width:451px;
-			max-height:451px;
-		}
-	}
 
 	/*
 	------------------------------------------------
@@ -74,6 +62,18 @@ header {
 	.headTxt span.smallHeadTxt {
 		font-size:25pt;
 		font-family: sans-serif;
+	}
+
+	@media(max-width:518px) {
+		.headTxt {
+			font-size: 40pt;
+		}
+	}
+
+	@media(max-width:350px) {
+		.headTxt {
+			font-size: 30pt;
+		}
 	}
 
 
@@ -105,7 +105,7 @@ Main Page Text Styles
 	font-family: sans-serif;
 }
 
-.smallTxt {
+/*.smallTxt {
 	color:white;
 	font-size: 18pt;
 	max-width:400px;
@@ -114,7 +114,32 @@ Main Page Text Styles
 	text-align: center;
 	text-transform: uppercase;
 	font-family: sans-serif;
-}
+}*/
+
+	@media(max-width: 365px) {
+		.largeTxt {
+			color:white;
+			font-size: 40pt;
+			max-width:400px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: sans-serif;
+		}
+
+		.medTxt {
+			color:white;
+			font-size: 18pt;
+			max-width:400px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align: center;
+			text-transform: uppercase;
+			margin-top:-10px;
+			font-family: sans-serif;
+		}
+	}
 
 /*
 ------------------------------------------------
@@ -128,7 +153,7 @@ Bands Styles
 	float:left;
 	max-width:100px;
 	margin-top:20px;
-	padding:0 15px 0 25px;
+	padding:0 15px 0 20px;
 	font-family: sans-serif;
 }
 
@@ -168,6 +193,36 @@ Bands Styles
 	text-align: right;
 }
 
+	@media(max-width: 400px) {
+		.bandsFeaturing {
+			float:left;
+			clear:left;
+			width: 100%;
+			text-align: center;
+		}
+
+		.bandName1 {
+			float: left;
+			clear:left;
+			width: 100%;
+			text-align: center;
+		}
+
+		.bandName2 {
+			float: left;
+			clear:left;
+			width: 100%;
+			text-align: center;
+		}
+
+		.bandName3 {
+			float: left;
+			clear:left;
+			width: 100%;
+			text-align: center;
+		}
+	}
+
 
 /*
 ------------------------------------------------
@@ -178,7 +233,7 @@ Horzontal Line Styles
 	background-image:url(images/horizontal_line.jpg);
 	background-repeat: repeat-x;
 	height: 1px;
-	width:1040px;
+	width:1030px;
 	margin-top:30px;
 	float:left;
 }
@@ -187,7 +242,7 @@ Horzontal Line Styles
 	background-image:url(images/horizontal_line.jpg);
 	background-repeat: repeat-x;
 	height: 1px;
-	width:350px;
+	width:450px;
 	margin-top:30px;
 	float:left;
 }
@@ -195,47 +250,17 @@ Horzontal Line Styles
 	background-image:url(images/horizontal_line.jpg);
 	background-repeat: repeat-x;
 	height: 1px;
-	width:350px;
+	width:450px;
 	margin-top:30px;
 	float:left;
 }		
-	/*
-	------------------------------------------------
-	Horzontal Line Styles (Larger than 450px)
-	------------------------------------------------
-	*/
-	@media(min-width: 451px) {
-		.horizLineFull {
-			background-image:url(images/horizontal_line.jpg);
-			background-repeat: repeat-x;
-			height: 1px;
-			width:1040px;
-			margin-top:10px;
-			float:left;
-		}
-		.horizLineHalf1 { 
-			background-image:url(images/horizontal_line.jpg);
-			background-repeat: repeat-x;
-			height: 1px;
-			width:350px;
-			margin-top:30px;
-			float:left;
-		}
-		.horizLineHalf2 {
-			background-image:url(images/horizontal_line.jpg);
-			background-repeat: repeat-x;
-			height: 1px;
-			width:350px;
-			margin-top:30px;
-			float:left;
-		}
-	}
+	
 	/*
 	------------------------------------------------
 	Horzontal Line Styles (Max 450px)
 	------------------------------------------------
 	*/
-	@media(max-width: 450px) {
+	@media(max-width: 1050px) {
 		.horizLineFull {
 			height: 1px;
 			width: auto;
@@ -306,6 +331,37 @@ Event Listing Styles
 	text-transform: uppercase;
 	text-align:right;
 }
+	
+	@media(max-width: 400px) {
+		.events1 {
+			clear:left;
+			float:left;
+			width: 100%;
+			text-align: center;
+			margin-top:40px;
+		}
+
+		.events2 {
+			clear:left;
+			float:left;
+			width: 100%;
+			text-align: center;
+		}
+
+		.events3 {
+			clear:left;
+			float:left;
+			width: 100%;
+			text-align: center;
+		}
+
+		.events4 {
+			clear:left;
+			float:left;
+			width: 100%;
+			text-align: center;
+		}
+	}
 
 /*
 ------------------------------------------------
@@ -318,11 +374,8 @@ Coming Soon Styles
 	font-size: 20pt;
 	font-family: sans-serif;
 	font-style: italic;
-	margin:30px auto 30px 310px;
-	width: 800px;
+	margin-top:30px;
 }
-
-.comingSoon span.cs {}
 
 /*
 -----------------------------------------------
