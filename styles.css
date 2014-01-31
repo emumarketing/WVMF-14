@@ -8,6 +8,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	font-family: "din-condensed-web", sans-serif;
 }
 
 nav {
@@ -19,7 +20,6 @@ nav {
 	text-align: center;
 	color:white;
 	position: fixed;
-	font-family: sans-serif;
 }
 
 
@@ -56,12 +56,10 @@ header {
 		text-transform: uppercase;
 		color:white;
 		margin-top:50px;
-		font-family: sans-serif;
 	}
 
 	.headTxt span.smallHeadTxt {
 		font-size:25pt;
-		font-family: sans-serif;
 	}
 
 	@media(max-width:518px) {
@@ -90,7 +88,6 @@ Main Page Text Styles
 	margin-right:auto;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: sans-serif;
 }
 
 .medTxt {
@@ -102,7 +99,6 @@ Main Page Text Styles
 	text-align: center;
 	text-transform: uppercase;
 	margin-top:-10px;
-	font-family: sans-serif;
 }
 
 /*.smallTxt {
@@ -113,7 +109,6 @@ Main Page Text Styles
 	margin-right:auto;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: sans-serif;
 }*/
 
 	@media(max-width: 365px) {
@@ -125,7 +120,6 @@ Main Page Text Styles
 			margin-right:auto;
 			text-align: center;
 			text-transform: uppercase;
-			font-family: sans-serif;
 		}
 
 		.medTxt {
@@ -137,7 +131,6 @@ Main Page Text Styles
 			text-align: center;
 			text-transform: uppercase;
 			margin-top:-10px;
-			font-family: sans-serif;
 		}
 	}
 
@@ -154,7 +147,6 @@ Bands Styles
 	max-width:100px;
 	margin-top:20px;
 	padding:0 15px 0 20px;
-	font-family: sans-serif;
 }
 
 .bandName1 {
@@ -164,7 +156,6 @@ Bands Styles
 	text-transform: uppercase;
 	float: left;
 	clear:left;
-	font-family: sans-serif;
 	margin-top:5px;
 	width:33%;
 }
@@ -175,7 +166,6 @@ Bands Styles
 	font-weight: bold;
 	text-transform: uppercase;
 	float: left;
-	font-family: sans-serif;
 	margin-top:5px;
 	width:33%;
 	text-align: center;
@@ -187,7 +177,6 @@ Bands Styles
 	font-weight: bold;
 	text-transform: uppercase;
 	float: left;
-	font-family: sans-serif;
 	margin-top:5px;
 	width:33%;
 	text-align: right;
@@ -292,7 +281,6 @@ Event Listing Styles
 	margin-top: 10px;
 	width:25%;
 	font-size: 15pt;
-	font-family: sans-serif;
 	text-transform: uppercase;
 }
 
@@ -303,7 +291,6 @@ Event Listing Styles
 	width:25%;
 	margin-top: 10px;
 	font-size: 15pt;
-	font-family: sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -315,7 +302,6 @@ Event Listing Styles
 	width:25%;
 	margin-top: 10px;
 	font-size: 15pt;
-	font-family: sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -327,7 +313,6 @@ Event Listing Styles
 	width:25%;
 	margin-top: 10px;
 	font-size: 15pt;
-	font-family: sans-serif;
 	text-transform: uppercase;
 	text-align:right;
 }
@@ -372,7 +357,6 @@ Coming Soon Styles
 	color:white;
 	float: left;
 	font-size: 20pt;
-	font-family: sans-serif;
 	font-style: italic;
 	margin-top:30px;
 }
