@@ -3,13 +3,59 @@
 <head>
 	<script type="text/javascript" src="//use.typekit.net/lei1kwc.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<title></title>
+
+	<!--JQuery for setting window size-->
+	 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+	 <script>
+	 	//Initial Load of page
+	 	$(document).ready(sizeContent);
+
+		//Every resize of window
+		$(window).resize(sizeContent);
+
+		//Dynamically assign height
+		function sizeContent() {
+		    var newHeight = $("html").height() - $("header").height() - $("footer").height() + "px";
+		    $("#wrapper").css("height", newHeight);
+		}
+	 </script>
+
+	<title>WVMF 2014</title>
 	<meta name="description" content="" />
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
 	<nav>
+		<ul>
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Bands</a>
+				<ul>
+					<li><a href="#">Night Beats</a></li>
+					<li><a href="#">Black Pistol Fire</a></li>
+					<li><a href="#">Wampire</a></li>
+				</ul>
+			</li>			
+			<li><a href="#">Program</a>
+				<ul>
+					<li><a href="#">Test</a></li>
+					<li><a href="#">Test</a></li>
+					<li><a href="#">Test</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Events</a>
+				<ul>
+					<li><a href="#">Test</a></li>
+					<li><a href="#">Test</a></li>
+					<li><a href="#">Test</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Instagram</a></li>
+		</ul>
 	</nav>
 
 	<div class="headTxt">
@@ -61,7 +107,9 @@
 			</article>
 		</section>
 	</div>
-
+	
 	<footer>
+
 	</footer>
+
 </body>
