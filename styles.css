@@ -59,7 +59,7 @@ nav ul,
       list-style: none;
       margin-left:auto;
       margin-right:auto;
-      width:902px;
+      width:1011px;
     }
     nav > ul > li {
       float: left;
@@ -276,79 +276,24 @@ Main Page Text Styles
 Bands Styles
 ------------------------------------------------
 */
-.bandsFeaturing {
-	text-transform: uppercase;
-	font-size: 12pt;
-	color: white;
-	float:left;
-	max-width:100px;
-	margin-top:20px;
-	padding:0 15px 0 20px;
+.frontContent h3 {
+	margin: 0;
+
 }
 
-.bandName1 {
+.bands {
+	margin-left: 25px;
+}
+
+.bands a {
 	color:white;
-	font-size: 20pt;
-	font-weight: bold;
-	text-transform: uppercase;
-	float: left;
-	clear:left;
-	margin-top:5px;
-	width:33%;
+	text-decoration: none;
+	font-size: .8em;
 }
 
-.bandName2 {
-	color:white;
-	font-size: 20pt;
-	font-weight: bold;
-	text-transform: uppercase;
-	float: left;
-	margin-top:5px;
-	width:33%;
-	text-align: center;
+.bands a:hover {
+	color:blue;
 }
-
-.bandName3 {
-	color:white;
-	font-size: 20pt;
-	font-weight: bold;
-	text-transform: uppercase;
-	float: left;
-	margin-top:5px;
-	width:33%;
-	text-align: right;
-}
-
-	@media(max-width: 400px) {
-		.bandsFeaturing {
-			float:left;
-			clear:left;
-			width: 100%;
-			text-align: center;
-		}
-
-		.bandName1 {
-			float: left;
-			clear:left;
-			width: 100%;
-			text-align: center;
-		}
-
-		.bandName2 {
-			float: left;
-			clear:left;
-			width: 100%;
-			text-align: center;
-		}
-
-		.bandName3 {
-			float: left;
-			clear:left;
-			width: 100%;
-			text-align: center;
-		}
-	}
-
 
 /*
 ------------------------------------------------
@@ -359,7 +304,7 @@ Horzontal Line Styles
 	background-image:url(images/horizontal_line.jpg);
 	background-repeat: repeat-x;
 	height: 1px;
-	width:1030px;
+	width:1040px;
 	margin-top:30px;
 	float:left;
 }
@@ -507,6 +452,26 @@ Coming Soon Styles
 			margin:20px 0 0 0;
 		}
 	}
+
+.frontContent {
+	color:white;
+	float: left;
+	font-size: 20pt;
+	font-style: italic;
+	margin:-500px 0 0 850px;
+	width:350px;
+}
+
+	@media(max-width: 1375px) {
+		.frontContent {
+			font-size: 20pt;
+			font-style: italic;
+			width:100%;
+			margin:20px 0 0 0;
+		}
+	}
+
+
 /*
 -----------------------------------------------
 ID's
