@@ -211,6 +211,24 @@ header img {
 		}
 	}
 
+/*
+------------------------------------------------
+Footer
+------------------------------------------------
+*/
+footer {
+	clear:both;
+	width:1040px;
+	background: #8a8a8a url(images/grad_dark.png) repeat-x left bottom;
+	height: 20px;
+	margin:0 auto;
+	text-align: center;
+	color:white;
+	font-size: .7em;
+	font-style: italic;
+	border-radius: 5px;
+	padding:9px 5px 5px 5px ;
+}
 
 /*
 ------------------------------------------------
@@ -219,7 +237,7 @@ Main Page Text Styles
 */
 .largeTxt {
 	color:white;
-	font-size: 70pt;
+	font-size: 65pt;
 	max-width:400px;
 	margin-left:auto;
 	margin-right:auto;
@@ -236,17 +254,8 @@ Main Page Text Styles
 	text-align: center;
 	text-transform: uppercase;
 	margin-top:-10px;
+	margin-bottom:0;
 }
-
-/*.smallTxt {
-	color:white;
-	font-size: 18pt;
-	max-width:400px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align: center;
-	text-transform: uppercase;
-}*/
 
 	@media(max-width: 365px) {
 		.largeTxt {
@@ -309,22 +318,7 @@ Horzontal Line Styles
 	float:left;
 }
 
-.horizLineHalf1 { 
-	background-image:url(images/horizontal_line.jpg);
-	background-repeat: repeat-x;
-	height: 1px;
-	width:450px;
-	margin-top:30px;
-	float:left;
-}
-.horizLineHalf2 {
-	background-image:url(images/horizontal_line.jpg);
-	background-repeat: repeat-x;
-	height: 1px;
-	width:450px;
-	margin-top:30px;
-	float:left;
-}		
+	
 	
 	/*
 	------------------------------------------------
@@ -333,16 +327,6 @@ Horzontal Line Styles
 	*/
 	@media(max-width: 1050px) {
 		.horizLineFull {
-			height: 1px;
-			width: auto;
-			float:left;
-		}
-		.horizLineHalf1 { 
-			height: 1px;
-			width: auto;
-			float:left;
-		}
-		.horizLineHalf2 {
 			height: 1px;
 			width: auto;
 			float:left;
@@ -364,6 +348,7 @@ Event Listing Styles
 	width:25%;
 	font-size: 15pt;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 .events2 {
@@ -440,7 +425,7 @@ Coming Soon Styles
 	float: left;
 	font-size: 20pt;
 	font-style: italic;
-	margin:-500px 0 0 -150px;
+	margin:-500px 0 0 -300px;
 	width:350px;
 }
 
@@ -458,7 +443,7 @@ Coming Soon Styles
 	float: left;
 	font-size: 20pt;
 	font-style: italic;
-	margin:-500px 0 0 850px;
+	margin:-510px 0 0 800px;
 	width:350px;
 }
 
