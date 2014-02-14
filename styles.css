@@ -229,6 +229,15 @@ footer {
 	padding:9px 5px 5px 5px ;
 }
 
+footer a {
+	color:#999;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color:#ccc;
+}
+
 /*
 ------------------------------------------------
 Main Page Text Styles
