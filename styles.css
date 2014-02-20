@@ -43,30 +43,28 @@ nav ul {
 
 nav ul li {
 	border-right:1px solid #fff;
-	width:177px;
+	width:184px;
 	display: inline-block;
-	margin:-15px 0 0 0;
+	margin:-15px 0 0 -6px;
 	height: 45px;
 	text-align: center;
 	padding-top: 25px;
 }
 
 nav ul li:first-child {
-	margin-left:-30px;
+	margin-left:-40px;
 }
 
 nav ul li:hover {
 	background-color: #39586f;
 	box-shadow: 0px 4px 4px #4375b3;
-	margin-left: -6px;
-	padding-left: 6px;
 }
 
 nav ul li.active {
 	color:#fff;
 	background-color:#39586f;
 	box-shadow: 0 4px 4px #4375b3;
-	margin-left: -6px;
+	
 }
 
 nav ul li.active a {
@@ -81,10 +79,6 @@ nav ul li a{
 
 nav ul li a:hover {
 	color:#fff;
-}
-
-nav ul li:first-child:hover {
-	margin-left:-38px;
 }
 
 nav ul li:last-child {
