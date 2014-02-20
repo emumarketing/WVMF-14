@@ -353,17 +353,146 @@ Event Listing Styles
 
 
 /*
-------------------------------------------------
-Separation Styles
-------------------------------------------------
+-------------------------------------------------------
+Divider Bar
+-------------------------------------------------------
 */
-.separation {
-	background-color: #303030;
-	height: 30px;
-	margin:0;
+
+.divider {
+	height:35px;
+	background-color:#707070;
+	width:100%;
+	position:relative;
+	box-shadow: 5px 5px 5px #606060;
+}
+
+.dividerWithContent {
+	height:65px;
+	background-color:#707070;
+	width:100%;
+	position:relative;
+	box-shadow: 3px 3px 3px #606060;
+	border-top:2px solid #000;
+}
+
+.dividerWithContent img {
+	border-radius:5px;
+	margin:3px;
 	padding:0;
-	clear: both;
-	width: 100%;
+}
+
+.dividerWithContent a {
+  position: relative;
+  display: inline-block;
+  margin-top:-15px;
+}
+
+/*Outbreak Hover */
+.dividerWithContent .dividerContentContainer a:hover.ob:before {
+  content: '';
+  display: block;
+  background: url(images/outbreak_tour_white.png); /* your background */
+  width: 150px; /* image width */
+  height: 55px; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+
+/*Eugene Weekly Hover*/
+.dividerWithContent .dividerContentContainer a:hover.ew:before  {
+  content: '';
+  display: block;
+  background: url(images/ew_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 3px;
+}
+
+/*Amex Hover*/
+.dividerWithContent .dividerContentContainer a:hover.amex:before  {
+  content: '';
+  display: block;
+  background: url(images/amex_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+
+/*Campus DJ Hover*/
+.dividerWithContent .dividerContentContainer a:hover.campdj:before  {
+  content: '';
+  display: block;
+  background: url(images/campus_dj_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+
+/*One Eleven Hover*/
+.dividerWithContent .dividerContentContainer a:hover.one11:before  {
+  content: '';
+  display: block;
+  background: url(images/oneeleven_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+
+/*KWVA Hover*/
+.dividerWithContent .dividerContentContainer a:hover.kwva:before  {
+  content: '';
+  display: block;
+  background: url(images/kwva_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+/* DuckTV Hover*/
+.dividerWithContent .dividerContentContainer a:hover.ducktv:before  {
+  content: '';
+  display: block;
+  background: url(images/ducktv_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+
+/*ODE Hover*/
+.dividerWithContent .dividerContentContainer a:hover.ode:before  {
+  content: '';
+  display: block;
+  background: url(images/ode_white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
+}
+
+
+/*pdx hover*/
+.dividerWithContent .dividerContentContainer a:hover.pdx:before  {
+  content: '';
+  display: block;
+  background: url(images/pdxl-white.png); /* your background */
+  width: 100%; /* image width */
+  height: 100%; /* image height */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin:2px 0 0 2px;
 }
 
 
