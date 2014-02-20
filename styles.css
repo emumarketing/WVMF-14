@@ -153,8 +153,9 @@ footer {
 	color:white;
 	font-size: .7em;
 	font-style: italic;
-	background-color: #505050;
+	background-color: #404040;
 	box-shadow-top:4px 4px 4px #ffffff;
+	margin-top:-5px;
 }
 
 footer a {
@@ -357,143 +358,147 @@ Event Listing Styles
 Divider Bar
 -------------------------------------------------------
 */
-
-.divider {
-	height:35px;
-	background-color:#707070;
-	width:100%;
-	position:relative;
-	box-shadow: 5px 5px 5px #606060;
-}
-
 .dividerWithContent {
-	height:65px;
-	background-color:#707070;
-	width:100%;
-	position:relative;
 	box-shadow: 3px 3px 3px #606060;
-	border-top:2px solid #000;
+	border-top:2px solid #404040;*/
+	height:75px;
+	background-color:#707070;
+	margin-top:150px;
+	margin-bottom: -15px;
 }
 
-.dividerWithContent img {
+/*.dividerWithContent img {
 	border-radius:5px;
-	margin:3px;
+	margin:10px;
 	padding:0;
-}
+}*/
 
-.dividerWithContent a {
+/*.dividerWithContent a {
   position: relative;
   display: inline-block;
   margin-top:-15px;
+}*/
+
+.dividerWithContent ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding:0 20px;
 }
 
-/*Outbreak Hover */
+.dividerContentContainer {
+	width:1400px;
+	margin:0 auto;
+}
+
+
+/*Outbreak Hover *
 .dividerWithContent .dividerContentContainer a:hover.ob:before {
   content: '';
   display: block;
-  background: url(images/outbreak_tour_white.png); /* your background */
-  width: 150px; /* image width */
-  height: 55px; /* image height */
+  background: url(images/outbreak_tour_white.png); /* your background *
+  width: 150px; /* image width *
+  height: 55px; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
 
-/*Eugene Weekly Hover*/
+/*Eugene Weekly Hover*
 .dividerWithContent .dividerContentContainer a:hover.ew:before  {
   content: '';
   display: block;
-  background: url(images/ew_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/ew_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 3px;
+  margin:10px 0 0 10px;
 }
 
-/*Amex Hover*/
+/*Amex Hover*
 .dividerWithContent .dividerContentContainer a:hover.amex:before  {
   content: '';
   display: block;
-  background: url(images/amex_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/amex_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
 
-/*Campus DJ Hover*/
+/*Campus DJ Hover*
 .dividerWithContent .dividerContentContainer a:hover.campdj:before  {
   content: '';
   display: block;
-  background: url(images/campus_dj_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/campus_dj_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
 
-/*One Eleven Hover*/
+/*One Eleven Hover*
 .dividerWithContent .dividerContentContainer a:hover.one11:before  {
   content: '';
   display: block;
-  background: url(images/oneeleven_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/oneeleven_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
 
-/*KWVA Hover*/
+/*KWVA Hover*
 .dividerWithContent .dividerContentContainer a:hover.kwva:before  {
   content: '';
   display: block;
-  background: url(images/kwva_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/kwva_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
-/* DuckTV Hover*/
+
+/* DuckTV Hover*
 .dividerWithContent .dividerContentContainer a:hover.ducktv:before  {
   content: '';
   display: block;
-  background: url(images/ducktv_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/ducktv_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
 
-/*ODE Hover*/
+/*ODE Hover*
 .dividerWithContent .dividerContentContainer a:hover.ode:before  {
   content: '';
   display: block;
-  background: url(images/ode_white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/ode_white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
+  margin:10px 0 0 10px;
 }
 
 
-/*pdx hover*/
+/*pdx hover*
 .dividerWithContent .dividerContentContainer a:hover.pdx:before  {
   content: '';
   display: block;
-  background: url(images/pdxl-white.png); /* your background */
-  width: 100%; /* image width */
-  height: 100%; /* image height */
+  background: url(images/pdxl-white.png); /* your background *
+  width: 100%; /* image width *
+  height: 100%; /* image height *
   position: absolute;
   background-repeat: no-repeat;
-  margin:2px 0 0 2px;
-}
+  margin:10px 0 0 10px;
+}*/
 
 
 /*
