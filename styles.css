@@ -35,20 +35,10 @@ nav {
 nav a {
 	color:#ccc;
 	text-decoration: none;
-	padding:35px 66px;
-}
-
-nav a.active {
-	color:#fff;
-	background-color:#39586f;
-	padding:25px 72px 24px 60px;
-	border-left:1px solid #fff;
-	box-shadow: 0 4px 4px #4375b3;
 }
 
 nav ul {
  	list-style: none;
- 	margin-left:-40px
 }
 
 nav ul li {
@@ -61,11 +51,24 @@ nav ul li {
 	padding-top: 25px;
 }
 
+nav ul li:first-child {
+	margin-left:-40px;
+}
+
 nav ul li:hover {
 	background-color: #39586f;
-	margin-left:-6px;
-	border-left: 1px solid #fff;
 	box-shadow: 0px 4px 4px #4375b3;
+}
+
+nav ul li.active {
+	color:#fff;
+	background-color:#39586f;
+	border-left:1px solid #fff;
+	box-shadow: 0 4px 4px #4375b3;
+}
+
+nav ul li.active a {
+	color:#fff;
 }
 
 nav ul li a{
