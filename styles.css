@@ -43,7 +43,7 @@ nav ul {
 
 nav ul li {
 	border-right:1px solid #fff;
-	width:179px;
+	width:177px;
 	display: inline-block;
 	margin:-15px 0 0 0;
 	height: 45px;
@@ -52,19 +52,21 @@ nav ul li {
 }
 
 nav ul li:first-child {
-	margin-left:-40px;
+	margin-left:-30px;
 }
 
 nav ul li:hover {
 	background-color: #39586f;
 	box-shadow: 0px 4px 4px #4375b3;
+	margin-left: -6px;
+	padding-left: 6px;
 }
 
 nav ul li.active {
 	color:#fff;
 	background-color:#39586f;
-	border-left:1px solid #fff;
 	box-shadow: 0 4px 4px #4375b3;
+	margin-left: -6px;
 }
 
 nav ul li.active a {
@@ -72,12 +74,17 @@ nav ul li.active a {
 }
 
 nav ul li a{
-	margin-left:-25px;
+	margin:0 -25px;
+	padding:25px 40px 25px 40px;
 	font-size: 15pt;
 }
 
 nav ul li a:hover {
 	color:#fff;
+}
+
+nav ul li:first-child:hover {
+	margin-left:-38px;
 }
 
 nav ul li:last-child {
