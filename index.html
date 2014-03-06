@@ -4,23 +4,6 @@
 	<script type="text/javascript" src="//use.typekit.net/lei1kwc.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<!--JQuery for setting window size-->
-	 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
-	 <script>
-	 	//Initial Load of page
-	 	$(document).ready(sizeContent);
-
-		//Every resize of window
-		$(window).resize(sizeContent);
-
-		//Dynamically assign height
-		function sizeContent() {
-		    var newHeight = $("html").height() - $("header").height() - $("footer").height() + "px";
-		    $("#wrapper").css("height", newHeight);
-		}
-	 </script>
-
 	<title>WVMF 2014</title>
 	<meta name="description" content="" />
 	<link rel="stylesheet" type="text/css" href="styles.css" />
@@ -29,79 +12,43 @@
 <body>
 	<nav>
 		<ul>
+			<li><a href="sponsors.html">Sponsors</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="artists.html">Artists</a></li>
-			<li><a href="lineup.html">Lineup</a></li>
-			<li><a href="stages.html">Stages</a></li>
-			<img src="images/" alt="home" width="150" height="130" />
-			<li><a href="activities.html">Activities</a></li>
-			<li><a href="facebook.html">Facebook</a></li>
-			<li><a href="twitter.html">Twitter</a></li>
-			<li><a href="instagram.html">Instagram</a></li>
+			<li><a href="index.html"><img src="images/nav-logo-home.png" alt="home" /></a></li>
+			<li><a href="directions.html">Directions</a></li>
+			<li><a href="camping.html">Camping</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
-
-	<div id="wrapper">
-		<section>
-			<article>
-				<div class="largeTxt">May 10</div>
-				<div class="medTxt">Free Admission</div>
-			</article>
-
-			<article>
-				<div class="comingSoon">
-					Keep Checking In...<br />
-					More Information Will be Coming Soon...
-				</div>
-			</article>
-
-			<article>
-				<div class="frontContent">
-					<h3>Featuring:</h3>
-					<div class="bands"><a href="#">Night Beats</a></div>
-					<div class="bands"><a href="#">Black Pistol Fire</a></div>
-					<div class="bands"><a href="#">Wampire</a></div>
-				</div>
-			</article>
-
-			<article>
-				<div class="horizLineFull"></div>
-			</article>
-
-			<article>
-				<div class="events1">15 Bands</div>
-				<div class="events2">UO Campus</div>
-				<div class="events3">3 Stages</div>
-				<div class="events4">12 PM || 12 AM</div>
-			</article>
-
-			
-
-			
-		</section>
-	</div>
-	
-	
-
-	<footer>
-		<div class="dividerWithContent">
-			<div class="dividerContentContainer">
-				<ul>
-					<li><a href="#" class="ob"><img src="images/outbreak_tour.png" alt="test" /></a></li>
-					<li><a href="#" class="ew"><img src="images/ew.png" alt="test" /></a></li>
-					<li><a href="#" class="amex"><img src="images/amex.png" alt="test" /></a></li>
-					<li><a href="#" class="campdj"><img src="images/campus_dj.png" alt="test" /></a></li>
-					<li><a href="#" class="one11"><img src="images/oneeleven.png" alt="test" /></a></li>
-					<li><a href="#" class="kwva"><img src="images/kwva.png" alt="test" /></a></li>
-					<li><a href="#" class="ducktv"><img src="images/ducktv.png" alt="test" /></a></li>
-					<li><a href="#" class="ode"><img src="images/ode.png" alt="test" /></a></li>
-					<li><a href="#" class="pdx"><img src="images/pdxl.png" alt="test" /></a></li>
-				</ul>
-			</div>
+	<header>
+		<div id="container" class="container">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.00"><img src="images/layer1small.png"></li>
+			<li class="layer" data-depth="0.33"><img src="images/layer4small.png"></li>
+			<li class="layer" data-depth="0.66"><img src="images/layer2small.png"></li>
+			<li class="layer" data-depth="1.00"><img src="images/layer3small.png"></li>
+		</ul>
 		</div>
 
+		<!-- Scripts -->
+		<script src="js/parallax.js"></script>
+		<script>
+
+		// Pretty simple huh?
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+
+		</script>
+	</header>
+
+	<section class="artists">	
+		
+	</section>
+
+	<footer>
 		<p class="footerContent">
-			Copyright &copy; 2014 Willamette Valley Music Festival. All Rights Reserved.<br />
+			Copyright &copy; 2014. Willamette Valley Music Festival. All Rights Reserved.<br />
 			Powered By: <a href="#">EMU Marketing &amp; Design</a>
 		</p>
 	</footer>

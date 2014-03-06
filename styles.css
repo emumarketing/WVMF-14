@@ -1,416 +1,135 @@
-/*
-------------------------------------------------
- Body Styles
-------------------------------------------------
-*/
 body {
-	background-image:url(images/Final_Background_WEB.jpg);
-	background-color:#000;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	font-family: "din-condensed-web", sans-serif;
-	width:100%;
-	max-height: 100%;
-	margin:0;
+	text-transform: uppercase;
+	font-family: sans-serif;
 }
-/*
---------------------------------------------------------
-Navigation Styles
---------------------------------------------------------
-*/
 
+/*
+------------------------------------------
+Base Header Styles
+------------------------------------------
+*/
+header {
+	position:fixed;
+	margin:0 -10px;
+	width:100%;
+}
+
+/*
+------------------------------------------
+Navigation Styles
+------------------------------------------
+*/
 nav {
 	width:100%;
-	background-color:rgba(72,72,72, 0.6);
-	text-align: center;
-	height:50px;
-	padding:.5em 0 7px 0 ;
-	margin:15px 0 0 0;
-	font-weight: bold;
-	text-transform: uppercase;
+	position: fixed;
+	z-index: 1000;
+	background-color: white;
+	height:40px;
+	top:0;
+	margin-left:-10px;
+	margin-right:0;
 }
 
 nav a {
-	color:white;
 	text-decoration: none;
+	color:#000044;
+}
+
+nav a:hover {
+	color:#999999;
+}
+
+nav img {
+	padding:0 25px;
+	position: fixed;
+	top:0;
+	width:98px;
+	height:80px;
+	left:775px;
+	z-index: 1111;
 }
 
 nav ul {
- 	list-style: none;
+	list-style: none;
+	margin:6px auto 0 auto;
+	width:1000px;
+	text-align: center;
+	position: fixed;
+	left:315px;
+	z-index: 1111;
 }
 
 nav ul li {
 	display: inline-block;
-	padding:0 10px;
-}
-
-nav ul li.active a {
-	color:blue;
-}
-
-nav ul li a:hover {
-	color:blue;
+	padding:5px 10px 5px 10px;
+	width:100px;
 }
 
 /*
-------------------------------------------------
-Header Styles
-------------------------------------------------
+------------------------------------------
+Footer Styles
+------------------------------------------
 */
-
-header {
-	margin-left: auto;
-	margin-right:auto;
-	text-align: center;
-}
-
-	/*
-	------------------------------------------------
-	Header Text Styles
-	------------------------------------------------
-	*/
-	.headTxt {
-		font-size:60pt;
-		max-width:1000px;
-		margin-left: auto;
-		margin-right:auto;
-		text-align: center;
-		text-transform: uppercase;
-		color:white;
-		margin-top:100px;
-	}
-
-	.headTxt span.smallHeadTxt {
-		font-size:25pt;
-	}
-
-	@media(max-width:518px) {
-		.headTxt {
-			font-size: 40pt;
-		}
-	}
-
-	@media(max-width:350px) {
-		.headTxt {
-			font-size: 30pt;
-		}
-	}
-
-/*
-------------------------------------------------
-Section
-------------------------------------------------
-*/
-section {
-	margin-top: 600px;
-}
-
-
-/*
-------------------------------------------------
-Footer
-------------------------------------------------
-*/
-footer {
-	clear:both;
-	width:100%;
-	height: 100px;
-	text-align: center;
-	color:white;
-	font-size: .7em;
-	font-style: italic;
-	background-color: #404040;
-	box-shadow-top:4px 4px 4px #ffffff;
-}
-
-footer p.footerContent {
-	padding-top:20px;
-}
-
-footer a {
-	color:#999;
-	text-decoration: none;
-}
-
-footer a:hover {
-	color:#ccc;
+footer{
+	display: relative;
 }
 
 /*
-------------------------------------------------
-Main Page Text Styles
-------------------------------------------------
+------------------------------------------
+Parallax Styles
+------------------------------------------
 */
-.largeTxt {
-	color:white;
-	font-size: 65pt;
-	max-width:400px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align: center;
-	text-transform: uppercase;
+header #container {
+	width:1700px;
+	height:800px;
+	overflow: hidden;
+	position: fixed;
+	top:0;
 }
 
-.medTxt {
-	color:white;
-	font-size: 28pt;
-	max-width:400px;
-	margin-left:auto;
-	margin-right:auto;
-	text-align: center;
-	text-transform: uppercase;
-	margin-top:-10px;
-	margin-bottom:0;
-}
-
-	@media(max-width: 365px) {
-		.largeTxt {
-			color:white;
-			font-size: 40pt;
-			max-width:400px;
-			margin-left:auto;
-			margin-right:auto;
-			text-align: center;
-			text-transform: uppercase;
-		}
-
-		.medTxt {
-			color:white;
-			font-size: 18pt;
-			max-width:400px;
-			margin-left:auto;
-			margin-right:auto;
-			text-align: center;
-			text-transform: uppercase;
-			margin-top:-10px;
-		}
-	}
-
-/*
-------------------------------------------------
-Bands Styles
-------------------------------------------------
-*/
-.frontContent h3 {
-	margin: 0;
+.container img {
+  display: block;
+  width: 100%;
 
 }
 
-.bands {
-	margin-left: 25px;
+.scene {
+  width: 1900px;
+  height:1100px;
+  margin-left:-150px;
+  margin-top: -50px;
 }
 
-.bands a {
-	color:#ccc;
-	text-decoration: none;
-	font-size: 1.1em;
+.layer:nth-child(1) {
+  opacity: 1;
 }
-
-.bands a:hover {
-	color:#4375b3;
+.layer:nth-child(2) {
+  opacity: 1;
+}
+.layer:nth-child(3) {
+  opacity: 1;
+}
+.layer:nth-child(4) {
+  opacity: 1;
+}
+.layer:nth-child(5) {
+  opacity: 1;
+}
+.layer:nth-child(6) {
+  opacity: 1;
 }
 
 /*
-------------------------------------------------
-Horzontal Line Styles
-------------------------------------------------
-*/
-.horizLineFull { 
-	background-image:url(images/horizontal_line.jpg);
-	background-repeat: repeat-x;
-	height: 1px;
-	width:1040px;
-	margin-top:30px;
-	float:left;
-}
-
-	
-	
-	/*
-	------------------------------------------------
-	Horzontal Line Styles (Max 450px)
-	------------------------------------------------
-	*/
-	@media(max-width: 1050px) {
-		.horizLineFull {
-			height: 1px;
-			width: auto;
-			float:left;
-		}
-	}
-
-
-/*
-------------------------------------------------
-Event Listing Styles
-------------------------------------------------
+------------------------------------------
+Artist Section Styles
+------------------------------------------
 */
 
-.events1 {
-	color:white;
-	clear:left;
-	float:left;
-	margin-top: 10px;
-	width:25%;
-	font-size: 15pt;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-}
-
-.events2 {
-	color:white;
-	display: block;
-	float:left;
-	width:25%;
-	margin-top: 10px;
-	font-size: 15pt;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.events3 {
-	color:white;
-	float:left;
-	display: block;
-	width:25%;
-	margin-top: 10px;
-	font-size: 15pt;
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.events4 {
-	color:white;
-	float:left;
-	display: block;
-	width:25%;
-	margin-top: 10px;
-	font-size: 15pt;
-	text-transform: uppercase;
-	text-align:right;
-}
-	
-	@media(max-width: 400px) {
-		.events1 {
-			clear:left;
-			float:left;
-			width: 100%;
-			text-align: center;
-			margin-top:40px;
-		}
-
-		.events2 {
-			clear:left;
-			float:left;
-			width: 100%;
-			text-align: center;
-		}
-
-		.events3 {
-			clear:left;
-			float:left;
-			width: 100%;
-			text-align: center;
-		}
-
-		.events4 {
-			clear:left;
-			float:left;
-			width: 100%;
-			text-align: center;
-		}
-	}
-
-
-/*
--------------------------------------------------------
-Divider Bar
--------------------------------------------------------
-*/
-.dividerWithContent {
-	box-shadow: 3px 3px 3px #606060;
-	border-top:2px solid #404040;*/
-	height:75px;
-	background-color:#707070;
-
-	margin-bottom: -15px;
-	top: 0;
-
-}
-
-/*.dividerWithContent img {
-	border-radius:5px;
-	margin:10px;
-	padding:0;
-}*/
-
-/*.dividerWithContent a {
-  position: relative;
-  display: inline-block;
-  margin-top:-15px;
-}*/
-
-.dividerWithContent ul li {
-	display: inline-block;
-	text-decoration: none;
-	padding:0 20px 15px 20px;
-}
-
-.dividerContentContainer {
-	width:1400px;
-	margin:0 auto;
-}
-
-/*
-------------------------------------------------
-Coming Soon Styles
-------------------------------------------------
-*/
-.comingSoon {
-	color:white;
-	float: left;
-	font-size: 25pt;
-	font-style: italic;
-	margin:-200px 0 0 -100px;
-	width:400px;
-}
-
-	@media(max-width: 1375px) {
-		.comingSoon {
-			font-size: 20pt;
-			font-style: italic;
-			width:100%;
-			margin:20px 0 0 0;
-		}
-	}
-
-.frontContent {
-	color:white;
-	float: left;
-	font-size: 20pt;
-	font-style: italic;
-	margin:-210px 0 0 800px;
-	width:350px;
-}
-
-	@media(max-width: 1375px) {
-		.frontContent {
-			font-size: 20pt;
-			font-style: italic;
-			width:100%;
-			margin:20px 0 0 0;
-		}
-	}
-
-
-/*
------------------------------------------------
-ID's
------------------------------------------------
-*/
-#wrapper {
-	max-width:1040px;
-	margin-left: auto;
-	margin-right: auto;
+.artists {
+	border-top:8px solid white;
+	background-color: black;
+	height:1500px;
+	margin:800px -10px 0 -10px;
+	z-index: 5000px;
+	position: relative;
 }
