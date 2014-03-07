@@ -1,6 +1,7 @@
 body {
 	text-transform: uppercase;
 	font-family: sans-serif;
+	color:white;
 }
 
 /*
@@ -20,14 +21,14 @@ Navigation Styles
 ------------------------------------------
 */
 nav {
-	width:100%;
+	width:2000px;
 	position: fixed;
 	z-index: 1000;
 	background-color: white;
 	height:40px;
 	top:0;
 	margin-left:-10px;
-	margin-right:0;
+	margin-right:-10px;
 }
 
 nav a {
@@ -71,9 +72,50 @@ Footer Styles
 ------------------------------------------
 */
 footer{
-	display: relative;
+	color:#000044;
+	width:100%;
+	margin: 0 -10px;
+	padding-right:20px;
+	position:relative;
+	background: white;
+	margin-bottom: -40px;
 }
 
+footer a {
+	text-decoration: none;
+	color:#000044;
+}
+
+footer a:hover {
+	color:#999999;
+}
+
+footer ul {
+	list-style: none;
+	padding:12px 10px 0 10px;
+}
+
+footer ul li {
+	display: inline-block;
+	padding:0 7px;
+}
+
+.homeImg {
+	margin:0 auto -80px auto;
+	width:100px;
+	position: relative;
+	top:-40px;
+	padding-left: 80px;
+}
+
+footer img {
+	height:80px;
+}
+
+.footerLinks {
+	float:left;
+	width:600px;
+}
 /*
 ------------------------------------------
 Parallax Styles
@@ -121,15 +163,167 @@ header #container {
 
 /*
 ------------------------------------------
-Artist Section Styles
+Artist Home Section Styles
 ------------------------------------------
 */
 
 .artists {
-	border-top:8px solid white;
-	background-color: black;
-	height:1500px;
-	margin:800px -10px 0 -10px;
+	background:url('images/Atrak-cutout-narrow.png');
+	background-repeat: no-repeat;
+	height:680px;
+	margin:750px -10px 0 -10px;
 	z-index: 5000px;
 	position: relative;
+	border-bottom:8px solid white;
+}
+
+.apTxt {
+	font-size: 70pt;
+	font-weight: 700;
+	width:400px;
+	margin:150px 0 -10px 150px;
+	text-align: center;
+	line-height: 55px;
+	float:left;
+}
+
+.apTxt a {
+	text-decoration: none;
+	color:white;
+}
+
+.apTxt a:hover {
+	color:#000044;
+}
+
+.apTxtSm {
+	font-size: 53pt;
+}
+
+.apTxtMin {
+	font-size: 16pt;
+	font-weight: normal;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
+
+.profiles {
+	float:right;
+	font-size: 24pt;
+	font-weight: 700;
+	margin-top:150px;
+}
+
+.profiles a{
+	text-decoration: none;
+	color:white;
+}
+
+.profiles a:hover {
+	color:#000044;
+}
+
+.bpf {
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	padding:10px 15px;
+}
+
+.nb {
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	padding:10px 15px;
+	margin-top:10px;
+	float:right;
+	text-align: right;
+	width:260px;
+	clear:both;
+}
+
+.w {
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	padding:10px 15px;
+	margin-top:10px;
+	float:right;
+	text-align: right;
+	width:200px;
+	clear:both;
+}
+
+/*
+------------------------------------------
+Social Media Home Section Styles
+------------------------------------------
+*/
+section.socialMedia {
+	background:#000;
+	position: relative;
+	margin:0 -10px;
+	height: 400px;
+	z-index: 5000px;
+	border-bottom: 8px solid white;
+}
+
+.leftSection {
+	height: 400px;
+	width:700px;
+	border-right:8px solid white;
+	float:left;
+	display: block;
+	background:url('images/concert-small.jpg');
+}
+
+.twitter {
+	height: 180px;
+	width:450px;
+	border-right:8px solid white;
+	float:left;
+	background:rgba(255,255,255,.2);
+}
+
+.twitter:hover {
+	background:rgba(255,255,255,.5);
+}
+
+.instagram {
+	height: 180px;
+	width:505px;
+	float:left;
+	background:rgba(255,255,255,.2);
+}
+
+.instagram:hover {
+	background:rgba(255,255,255,.5);
+}
+
+.facebook {
+	height: 212px;
+	width:963px;
+	float:left;
+	background:rgba(255,255,255,.2);
+	border-top: 8px solid white;
+}
+
+.facebook:hover {
+	background:rgba(255,255,255,.5);
+}
+
+/*
+------------------------------------------
+Archives Home Section Styles
+------------------------------------------
+*/
+section.archives {
+
+	background:#000;
+	background: url('images/singer.jpg');
+	position: relative;
+	margin:0 -10px;
+	height: 300px;
+	z-index: 5000px;
+	margin-bottom: 8px solid white;
 }
