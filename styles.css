@@ -116,6 +116,11 @@ footer img {
 	float:left;
 	width:600px;
 }
+
+.footerIcons {
+	width:600px;
+	float:right;
+}
 /*
 ------------------------------------------
 Parallax Styles
