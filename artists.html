@@ -1,101 +1,36 @@
 <!DOCTYPE html>
 
 <head>
-	<script type="text/javascript" src="//use.typekit.net/lei1kwc.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-	<!--JQuery for setting window size-->
-	 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
-	 <script>
-	 	//Initial Load of page
-	 	$(document).ready(sizeContent);
-
-		//Every resize of window
-		$(window).resize(sizeContent);
-
-		//Dynamically assign height
-		function sizeContent() {
-		    var newHeight = $("html").height() - $("header").height() - $("footer").height() + "px";
-		    $("#wrapper").css("height", newHeight);
-		}
-	 </script>
-
 	<title>WVMF 2014</title>
 	<meta name="description" content="" />
 	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<style>
+      body {
+        font-family: 'Din', sans-serif;
+        font-size:12pt;
+      }
+    </style>
 </head>
 
 <body>
 	<nav>
 		<ul>
+			<li><a href="sponsors.html">Sponsors</a></li>
 			<li><a href="about.html">About</a></li>
-			<li class="active"><a href="artists.html">Artists</a></li>
-			<li><a href="lineup.html">Lineup</a></li>
-			<li><a href="stages.html">Stages</a></li>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="activities.html">Activities</a></li>
-			<li><a href="facebook.html">Facebook</a></li>
-			<li><a href="twitter.html">Twitter</a></li>
-			<li><a href="instagram.html">Instagram</a></li>
+			<li><a href="artists.html">Artists</a></li>
+			<li><a href="index.html"><img src="images/nav-logo-home.png" alt="home" /></a></li>
+			<li><a href="directions.html">Directions</a></li>
+			<li><a href="camping.html">Camping</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
-
-	<div class="headTxt">
-		Willamette Valley<br />Music Festival <span class="smallHeadTxt">2014</span>
-	</div>	
-
-	<header>
-		<img src="images/wvmf-logo-450x450.png" class="otherPagesLogo" alt="img" />
-	</header>
-
-	<div id="wrapper">
-		<section class="top">
-			<article>
-			
-			</article>
-
-			<article>
-
-			</article>
-
-			<article>
-				
-			</article>
-
-			<article>
-				
-			</article>
-
-			<article>
-				
-			</article>
-		</section>
-	</div>
 	
-	
+	<section>
+	</section>
 
 	<footer>
-		<div class="dividerWithContent">
-			<div class="dividerContentContainer">
-				<ul>
-					<li><a href="#" class="ob"><img src="images/outbreak_tour.png" alt="test" /></a></li>
-					<li><a href="#" class="ew"><img src="images/ew.png" alt="test" /></a></li>
-					<li><a href="#" class="amex"><img src="images/amex.png" alt="test" /></a></li>
-					<li><a href="#" class="campdj"><img src="images/campus_dj.png" alt="test" /></a></li>
-					<li><a href="#" class="one11"><img src="images/oneeleven.png" alt="test" /></a></li>
-					<li><a href="#" class="kwva"><img src="images/kwva.png" alt="test" /></a></li>
-					<li><a href="#" class="ducktv"><img src="images/ducktv.png" alt="test" /></a></li>
-					<li><a href="#" class="ode"><img src="images/ode.png" alt="test" /></a></li>
-					<li><a href="#" class="pdx"><img src="images/pdxl.png" alt="test" /></a></li>
-				</ul>
-			</div>
-		</div>
 
-		<p class="footerContent">
-			Copyright &copy; 2014 Willamette Valley Music Festival. All Rights Reserved.<br />
-			Powered By: <a href="#">EMU Marketing &amp; Design</a>
-		</p>
 	</footer>
 
 </body>
