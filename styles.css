@@ -383,7 +383,7 @@ section.socialMedia {
 Archives Home Section Styles
 ------------------------------------------
 */
-section.archives {
+section.about {
 
 	background:#000;
 	background: url('images/singer.jpg');
@@ -420,4 +420,19 @@ section.archives {
 	font-weight: normal;
 	border-top:1px solid white;
 	border-bottom:1px solid white;
+}
+
+/*
+---------------------------------------------
+Directions Section
+---------------------------------------------
+*/
+
+section.directions {
+	background: #000;
+	height: 600px;
+	position: relative;
+	z-index: 5000;
+	margin: 0 -10px;
+	margin-bottom: 8px solid white;
 }
