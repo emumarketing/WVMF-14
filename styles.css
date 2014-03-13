@@ -30,11 +30,18 @@ nav {
 	top:0;
 	margin-left:-10px;
 	margin-right:-10px;
+  text-align: center;
 }
 
 nav a {
 	text-decoration: none;
 	color:#000044;
+  position: relative;
+  top: -60px;
+}
+
+nav a.logo {
+  top: -10px;
 }
 
 nav a:hover {
@@ -42,23 +49,19 @@ nav a:hover {
 }
 
 nav img {
-	padding:0 25px;
-	position: fixed;
-	top:0;
-	width:98px;
-	height:80px;
-	left:775px;
+	padding: 0 25px;
+	top: 55px;
+	width: 98px;
+	height: 80px;
 	z-index: 1111;
+  margin-left: -20px;
 }
 
 nav ul {
 	list-style: none;
 	margin:6px auto 0 auto;
-	width:1000px;
-	text-align: center;
-	position: fixed;
-	left:315px;
 	z-index: 1111;
+  padding: 0;
 }
 
 nav ul li {
