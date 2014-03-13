@@ -312,9 +312,13 @@ section.social {
 	border-bottom: 8px solid white;
 }
 
+section.social div {
+  text-align: center;
+}
+
 .leftSection {
 	height: 400px;
-	width:41%;
+	width:40%;
 	border-right:8px solid white;
 	float:left;
 	display: block;
@@ -356,6 +360,7 @@ section.social {
 	height: 180px;
 	width:28%;
 	border-right:8px solid white;
+  position: relative;
 	float:left;
 	background:rgba(255,255,255,.2);
 }
@@ -365,8 +370,7 @@ section.social {
 }
 
 .twitter img {
-	margin-left:175px;
-	margin-top: 45px;
+  margin-top: 40px;
 	width:100px;
 }
 
@@ -382,7 +386,6 @@ section.social {
 }
 
 .instagram img {
-	margin-left:200px;
 	margin-top: 40px;
 	width:100px;
 }
@@ -400,7 +403,6 @@ section.social {
 }
 
 .facebook img {
-	margin-left:440px;
 	margin-top: 55px;
 	border-radius:6px;
 	width:100px;
