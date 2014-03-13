@@ -189,7 +189,7 @@ Artist Home Section Styles
 .artists {
 	background:url('images/Atrak-cutout-narrow.png');
 	background-size:cover;
-	height:680px;
+	height:800px;
 	margin:750px -10px 0 -10px;
 	z-index: 5000;
 	position: relative;
@@ -245,7 +245,7 @@ Artist Home Section Styles
 	margin-top:125px;
 	position: relative;
 	width: 40%;
-	height: 75%;
+	height: 65%;
 	background-color: rgba(128,128,128, .2);
 	border-radius:20px 0 0 20px;
 }
@@ -283,7 +283,7 @@ Artist Home Section Styles
 }
 
 #bandlist {
-	line-height: 1.2em;
+	line-height: 1em;
 }
 
 .socialMediaIcon {
@@ -297,6 +297,127 @@ Artist Home Section Styles
 	clear:right;
 	float: left;
 }
+
+/*
+------------------------------------------
+Band Name Link Styles
+------------------------------------------
+*/
+#bandlist li a {
+	width:300px;
+	display: block;
+}
+
+a.band1 {
+	background:url('images/nightbeatstxt.png');
+	height: 40px;
+}
+
+a.band1:hover {
+	background:url('images/nightbeatstxtblue.png');
+}
+
+a.band2 {
+	background:url('images/wampiretxt.png');
+	height:47px;
+}
+
+a.band2:hover {
+	background:url('images/wampiretxtblue.png');
+}
+
+a.band3 {
+	background:url('images/blackpistolfiretxt.png');
+	height:40px;
+}
+
+a.band3:hover {
+	background:url('images/blackpistolfiretxtblue.png');
+}
+
+a.band4 {
+	background:url('images/burninmoonlighttxt.png');
+	height:30px;
+}
+
+a.band4:hover {
+	background:url('images/burninmoonlighttxtblue.png');
+}
+
+a.band5 {
+	background:url('images/goldfoottxt.png');
+	height:40px;
+}
+
+a.band5:hover {
+	background:url('images/goldfoottxtblue.png');
+}
+
+a.band6 {
+	background:url('images/mindthegaptxt.png');
+	height:40px;
+}
+
+a.band6:hover {
+	background:url('images/mindthegaptxtblue.png');
+}
+
+a.band7 {
+	background:url('images/greengarterbandtxt.png');
+	height:32px;
+}
+
+a.band7:hover {
+	background:url('images/greengarterbandtxtblue.png');
+}
+
+a.band8 {
+	background:url('images/divisitxt.png');
+	height:48px;
+}
+
+a.band8:hover {
+	background:url('images/divisitxtblue.png');
+}
+
+a.band9 {
+	background:url('images/hungryskinnytxt.png');
+	height:34px;
+}
+
+a.band9:hover {
+	background:url('images/hungryskinnytxtblue.png');
+}
+
+a.band10 {
+	background:url('images/skycountrytxt.png');
+	height:42px;
+}
+
+a.band10:hover {
+	background:url('images/skycountrytxtblue.png');
+}
+a.band11 {
+	background:url('images/ontherockstxt.png');
+	height:40px;
+}
+
+a.band11:hover {
+	background:url('images/ontherockstxtblue.png');
+}
+
+a.band12 {
+	background:url('images/mozzokushtxt.png');
+	height:40px;
+}
+
+a.band12:hover {
+	background:url('images/mozzokushtxtblue.png');
+}
+
+
+
+
 
 /*
 ------------------------------------------
@@ -414,22 +535,22 @@ Archives Home Section Styles
 ------------------------------------------
 */
 section.about {
-
+	display: none;
 	background:#000;
-	background: url('images/singer.jpg');
+	background: url('images/Singer.jpg');
 	background-size:cover;
 	position: relative;
 	margin:0 -10px;
-	height: 300px;
+	height: 600px;
 	z-index: 5000;
-	margin-bottom: 8px solid white;
+	border-bottom: 8px solid white;
 }
 
 .aTxt {
 	font-size: 50pt;
 	font-weight: 700;
 	width:400px;
-	margin:50px 100px -10px 0;
+	margin:150px 100px -10px 0;
 	text-align: center;
 	line-height: 35px;
 	float:right;
