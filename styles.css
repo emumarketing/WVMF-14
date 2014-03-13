@@ -256,21 +256,21 @@ Artist Home Section Styles
 	height: 100%;
 	position: absolute;
 	top: 0;
-	padding:25px;
 	text-transform: none;
 }
 
 .profiles div img {
 	float:right;
 	margin-right: 25px;
-	width:200px;
-	border-radius: 10px 0 0 10px;
+	width: 25%;
+	border-radius: 10px;
 	margin-top:-10px;
 }
 
 .profiles div h2 {
 	width:65%;
 	float:left;
+  margin-left: 25px;
 }
 
 .profiles div p {
@@ -280,6 +280,7 @@ Artist Home Section Styles
 	font-weight:normal;
 	color:#999;
 	font-size: 11pt;
+  margin-left: 25px;
 }
 
 #bandlist {
