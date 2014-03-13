@@ -198,7 +198,7 @@ Artist Home Section Styles
 	font-size: 70pt;
 	font-weight: 700;
 	max-width:400px;
-	margin:150px 0 -10px 150px;
+	margin:125px 0 -10px 150px;
 	text-align: center;
 	line-height: 55px;
 	float:left;
@@ -237,13 +237,14 @@ Artist Home Section Styles
 /* band profile block */
 .profiles {
 	float:right;
-	font-size: 24pt;
+	font-size: 12pt;
 	font-weight: 700;
-	margin-top:150px;
+	margin-top:125px;
 	position: relative;
 	width: 40%;
-	height: 80%;
-	background-color: rgba(128,128,128, .5);
+	height: 75%;
+	background-color: rgba(128,128,128, .2);
+	border-radius:20px 0 0 20px;
 }
 
 .profiles div {
@@ -252,6 +253,46 @@ Artist Home Section Styles
 	height: 100%;
 	position: absolute;
 	top: 0;
+	padding:25px;
+	text-transform: none;
+}
+
+.profiles div img {
+	float:right;
+	margin-right: 25px;
+	width:200px;
+	border-radius: 10px 0 0 10px;
+	margin-top:-10px;
+}
+
+.profiles div h2 {
+	width:65%;
+	float:left;
+}
+
+.profiles div p {
+	width:65%;
+	float:left;
+	margin-top:-15px;
+	font-weight:normal;
+	color:#999;
+	font-size: 11pt;
+}
+
+#bandlist {
+	line-height: 1.2em;
+}
+
+.socialMediaIcon {
+	text-decoration: none;
+	color:white;
+	float:left;
+	margin:5px 190px 0 0 ;
+}
+
+.fa {
+	clear:right;
+	float: left;
 }
 
 /*
