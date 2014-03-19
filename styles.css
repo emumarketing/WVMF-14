@@ -571,16 +571,6 @@ section.about {
 	float:right;
 }
 
-.aTxt a {
-	text-decoration: none;
-	color:white;
-}
-
-.aTxt a:hover {
-	color:#000044;
-}
-
-
 .aTxtMin {
 	font-size: 16pt;
 	font-weight: normal;
@@ -639,7 +629,44 @@ section.about {
 	font-weight: normal;
 }
 
+/*
+---------------------------------------------
+Activities Section
+---------------------------------------------
+*/
 
+section.activities {
+	background:#000;
+	/*background: url('images/');*/
+	background-size:cover;
+	position: relative;
+	margin:0 -10px;
+	height: 600px;
+	z-index: 5000;
+	border-bottom: 8px solid white;
+	width: 100%;
+}
+
+.activitiesTxt {
+	font-size: 50pt;
+	font-weight: 700;
+	width:400px;
+	margin:75px 0 0 100px;
+	text-align: center;
+	line-height: 35px;
+	float:left;
+}
+
+.activitiesTxtSm {
+	font-size: 30pt;
+}
+
+.aTxtMin {
+	font-size: 16pt;
+	font-weight: normal;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+}
 
 /*
 ---------------------------------------------
