@@ -3,6 +3,12 @@ body {
 	font-family: sans-serif;
 	color:white;
 	width:100%;
+	margin-right:-10px;
+}
+
+#fullpagewrap {
+	width:100%;
+
 }
 
 /*
@@ -12,7 +18,7 @@ Base Header Styles
 */
 header {
 	position:fixed;
-	margin:0 -10px;
+	margin:0 10px 0 -10px;
 	width:100%;
 }
 
@@ -49,7 +55,7 @@ nav a:hover {
 }
 
 nav img {
-	padding: 0 25px;
+	padding: 0;
 	top: 55px;
 	width: 98px;
 	height: 80px;
@@ -66,7 +72,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	padding:5px 10px 5px 10px;
+	padding:5px 0;
 	width:100px;
 	font-weight: bold;
 }
@@ -78,12 +84,10 @@ Footer Styles
 */
 footer{
 	color:#000044;
-	width:100%;
-	margin: 0 -10px;
-	padding-right:20px;
 	position:relative;
 	background: white;
-	margin-bottom: -40px;
+	margin:0 0 -40px 0;
+	width:100%;
 }
 
 footer a {
@@ -97,12 +101,12 @@ footer a:hover {
 
 footer ul {
 	list-style: none;
-	padding:12px 10px 0 10px;
+	padding:0;
 }
 
 footer ul li {
 	display: inline-block;
-	padding:0 7px;
+	padding:0;
 	font-weight: bold;
 }
 
@@ -111,7 +115,7 @@ footer ul li {
 	width:100px;
 	position: relative;
 	top:-40px;
-	padding-left: 80px;
+	/*padding-left: 80px;*/
 	z-index: 10000;
 }
 
@@ -126,14 +130,15 @@ footer img {
 
 .footerIcons {
 	width:600px;
-	float:right;
-	text-align: right;
+	float:left;
+	margin:10px 0 0 10px;
 }
 
 .footerIcons img {
 	width:auto;
 	height:auto;
-	padding:15px 10px 0 10px;
+	padding:0;
+	margin-right:20px;
 }
 /*
 ------------------------------------------
@@ -166,6 +171,7 @@ header #container {
 }
 .layer:nth-child(2) {
   opacity: 1;
+  margin-top:50px;
 }
 .layer:nth-child(3) {
   opacity: 1;
@@ -187,10 +193,10 @@ Artist Home Section Styles
 */
 
 .artists {
-	background:url('images/Atrak-cutout-narrow.png');
+	background:url('images/Atrak-cutout-full.png');
 	background-size:cover;
 	height:800px;
-	margin:750px -10px 0 -10px;
+	margin:600px 0 0 -10px;
 	z-index: 5000;
 	position: relative;
 	border-bottom:8px solid white;
@@ -246,8 +252,15 @@ Artist Home Section Styles
 	position: relative;
 	width: 40%;
 	height: 65%;
-	background-color: rgba(128,128,128, .2);
+	background-color: rgba(0,0,0, .8);
 	border-radius:20px 0 0 20px;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+	border-left:4px solid white;
+}
+
+.profiles div:first-of-type {
+	opacity: 1;
 }
 
 .profiles div {
@@ -432,6 +445,7 @@ section.social {
 	height: 400px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
+	width:100%;
 }
 
 section.social div {
@@ -440,7 +454,7 @@ section.social div {
 
 .leftSection {
 	height: 400px;
-	width:40%;
+	width:41.53%;
 	border-right:8px solid white;
 	float:left;
 	display: block;
@@ -480,7 +494,7 @@ section.social div {
 
 .twitter {
 	height: 180px;
-	width:28%;
+	width:27.5%;
 	border-right:8px solid white;
   position: relative;
 	float:left;
@@ -513,8 +527,8 @@ section.social div {
 }
 
 .facebook {
-	height: 212px;
-	width:58%;
+	height: 213px;
+	width:57.99%;
 	float:left;
 	background:rgba(255,255,255,.2);
 	border-top: 8px solid white;
@@ -536,7 +550,6 @@ Archives Home Section Styles
 ------------------------------------------
 */
 section.about {
-	display: none;
 	background:#000;
 	background: url('images/Singer.jpg');
 	background-size:cover;
@@ -545,13 +558,14 @@ section.about {
 	height: 600px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
+	width: 100%;
 }
 
 .aTxt {
 	font-size: 50pt;
 	font-weight: 700;
 	width:400px;
-	margin:150px 100px -10px 0;
+	margin:75px 100px 0px 0;
 	text-align: center;
 	line-height: 35px;
 	float:right;
@@ -574,6 +588,59 @@ section.about {
 	border-bottom:1px solid white;
 }
 
+.pressRelease {
+	width:50%;
+	height:500px;
+	position: relative;
+	float:left;
+	margin:50px 0 0 0;
+	background-color: rgba(0,0,0, .6 );
+	border-radius:0 20px 20px 0;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+	border-right:4px solid white;
+}
+
+.pressRelease h3 {
+	margin-left:40px;
+}
+
+.pressRelease h4 {
+	margin-left:40px;
+	font-size:11pt;
+}
+
+.pressRelease h4 a {
+	color:white;
+}
+
+.pressRelease h4 a:hover {
+	color:blue;
+}
+
+.pressRelease h6 {
+	margin-left:40px;
+	margin-top:-15px;
+}
+
+.pressRelease p {
+	text-transform: none;
+	font-size: 11pt;
+	margin-left:40px;
+	margin-right:40px;
+	font-weight: normal;
+}
+
+.pressRelease ul {
+	text-transform: none;
+	font-size: 10pt;
+	margin-left:40px;
+	margin-right:40px;
+	font-weight: normal;
+}
+
+
+
 /*
 ---------------------------------------------
 Directions Section
@@ -585,6 +652,8 @@ section.directions {
 	height: 600px;
 	position: relative;
 	z-index: 5000;
-	margin: 0 -10px;
+	margin: 0 0 0 -10px;
 	margin-bottom: 8px solid white;
+	background-size: cover;
+	width: 100%;
 }

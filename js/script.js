@@ -2,6 +2,7 @@ $(document).ready(function() {
   // Bind click listeners to band list
 	$('#bandlist a').click(function() {
 		console.log('click!');
+
 		// hide anything else in there
 		$('.profiles div').animate({'opacity':'0'});
 
@@ -22,7 +23,7 @@ function mapInit() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var mainStage = new google.maps.Marker({
-    position: new google.maps.LatLng(44.045097,-123.077628),
+    position: new google.maps.LatLng(44.04572,-123.077608),
     map: map,
     title:"Main Stage"
 	});
