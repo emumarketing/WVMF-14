@@ -3,12 +3,16 @@ body {
 	font-family: sans-serif;
 	color:white;
 	width:100%;
-	margin-right:-10px;
 }
 
 #fullpagewrap {
 	width:100%;
+	margin-right: -50px;
+}
 
+a {
+	text-decoration: none;
+	color:white;
 }
 
 /*
@@ -35,8 +39,7 @@ nav {
 	height:40px;
 	top:0;
 	margin-left:-10px;
-	margin-right:-10px;
-  text-align: center;
+  	text-align: center;
 }
 
 nav a {
@@ -55,24 +58,23 @@ nav a:hover {
 }
 
 nav img {
-	padding: 0;
 	top: 55px;
 	width: 98px;
 	height: 80px;
 	z-index: 1111;
-  margin-left: -20px;
+ 	margin-left: -20px;
 }
 
 nav ul {
 	list-style: none;
 	margin:6px auto 0 auto;
 	z-index: 1111;
-  padding: 0;
+	width: 90%;
 }
 
 nav ul li {
 	display: inline-block;
-	padding:5px 0;
+	margin:1px 0;
 	width:100px;
 	font-weight: bold;
 }
@@ -85,8 +87,8 @@ Footer Styles
 footer{
 	color:#000044;
 	position:relative;
-	background: white;
-	margin:0 0 -40px 0;
+	background-color: white;
+	margin:0 0 0 -10px;
 	width:100%;
 }
 
@@ -101,12 +103,10 @@ footer a:hover {
 
 footer ul {
 	list-style: none;
-	padding:0;
 }
 
 footer ul li {
 	display: inline-block;
-	padding:0;
 	font-weight: bold;
 }
 
@@ -115,7 +115,6 @@ footer ul li {
 	width:100px;
 	position: relative;
 	top:-40px;
-	/*padding-left: 80px;*/
 	z-index: 10000;
 }
 
@@ -137,7 +136,6 @@ footer img {
 .footerIcons img {
 	width:auto;
 	height:auto;
-	padding:0;
 	margin-right:20px;
 }
 /*
@@ -156,7 +154,6 @@ header #container {
 .container img {
   display: block;
   width: 100%;
-
 }
 
 .scene {
@@ -429,10 +426,6 @@ a.band12:hover {
 	background:url('images/mozzokushtxtblue.png');
 }
 
-
-
-
-
 /*
 ------------------------------------------
 Social Media Home Section Styles
@@ -637,7 +630,7 @@ Activities Section
 
 section.activities {
 	background:#000;
-	/*background: url('images/');*/
+	background: url('images/skateboards.jpg');
 	background-size:cover;
 	position: relative;
 	margin:0 -10px;
@@ -661,11 +654,117 @@ section.activities {
 	font-size: 30pt;
 }
 
-.aTxtMin {
-	font-size: 16pt;
-	font-weight: normal;
-	border-top:1px solid white;
-	border-bottom:1px solid white;
+
+/* activities events block */
+.events {
+	float:right;
+	font-size: 12pt;
+	font-weight: 700;
+	margin-top:20px;
+	position: relative;
+	width: 65%;
+	height: 90%;
+	background-color: rgba(0,0,0, .8);
+	border-radius:20px 0 0 20px;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+	border-left:4px solid white;
+}
+
+.event {
+	width:22.5%;
+	height:43%;
+	border:2px solid white;
+	margin:22px 0 0 15px;
+	float:left;
+	border-radius:15px;
+}
+
+.event h3 {
+	font-size: 12pt;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.event1, .event2, .event3, .event4, .event5, .event6, .event7  {
+	background-size: contain;
+}
+
+.event1:hover, .event2:hover, .event3:hover, .event4:hover, .event5:hover, .event6:hover, .event7:hover  {
+	background-color:#999;
+}
+
+.event1 {
+	background:url('images/.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+}
+
+.event2 {
+	background:url('images/craftcenterimg.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.event3 {
+	background:url('images/.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+}
+
+.event4 {
+	background:url('images/salsalibreimg.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+}
+
+.event5 {
+	background:url('images/.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+}
+
+.event6 {
+	background:url('images/.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+}
+
+.event7 {
+	background:url('images/.png') rgba(255, 255, 255, .3);
+	background-repeat: no-repeat;
+}
+
+
+/*
+---------------------------------------------
+Video Section
+---------------------------------------------
+*/
+
+section.video {
+	background:#000;
+	/*background: url('images/');*/
+	background-size:cover;
+	position: relative;
+	margin:0 -10px;
+	height: 600px;
+	z-index: 5000;
+	border-bottom: 8px solid white;
+	width: 100%;
+}
+
+/* video block */
+.vid {
+	font-size: 12pt;
+	font-weight: 700;
+	position: relative;
+	width: 46%;
+	height: 80%;
+	background-color: rgba(255,255,255, .2);
+	border-radius:20px;
+	border:4px solid white;
+	margin:50px 0 0 400px;
+	float:left;
+}
+
+.vid iframe {
+	border-radius: 15px;
 }
 
 /*
@@ -684,3 +783,4 @@ section.directions {
 	background-size: cover;
 	width: 100%;
 }
+
