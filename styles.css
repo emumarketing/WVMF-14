@@ -89,7 +89,7 @@ footer{
 	position:relative;
 	background-color: white;
 	margin:0 0 0 -10px;
-	width:100%;
+	width:100.4%;
 }
 
 footer a {
@@ -197,7 +197,7 @@ Artist Home Section Styles
 	z-index: 5000;
 	position: relative;
 	border-bottom:8px solid white;
-	width:100%;
+	width:100.4%;
 }
 
 .apTxt {
@@ -438,7 +438,7 @@ section.social {
 	height: 400px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
-	width:100%;
+	width:100.4%;
 }
 
 section.social div {
@@ -551,7 +551,7 @@ section.about {
 	height: 600px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
-	width: 100%;
+	width: 100.4%;
 }
 
 .aTxt {
@@ -637,7 +637,7 @@ section.activities {
 	height: 600px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
-	width: 100%;
+	width: 100.4%;
 }
 
 .activitiesTxt {
@@ -745,7 +745,7 @@ section.video {
 	height: 600px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
-	width: 100%;
+	width: 100.4%;
 }
 
 /* video block */
@@ -779,7 +779,7 @@ section.directions {
 	margin: 0 0 0 -10px;
 	margin-bottom: 8px solid white;
 	background-size: cover;
-	width: 100%;
+	width: 100.4%;
 }
 
 /*
