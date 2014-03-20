@@ -71,6 +71,15 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
 	<div id="home"></div>
 	<div id="fullpagewrap">
 	<nav>
@@ -232,21 +241,38 @@
 				<span class="smTxtMin">Join the Conversation</span>
 			</div>
 		</div>
-		<a href="https://twitter.com/wvmusicfest" target="new">
+		<a href="#" class="popper"  data-popbox="twitterPop">
 			<div class="twitter">
 				<img src="images/twitter-bird.png" alt="" /> 
 			</div>
 		</a>
-		<a href="http://instagram.com/wvmusicfest#" target="new">
+		<a href="#" class="popper"  data-popbox="instagramPop">
 			<div class="instagram">
 				<img src="images/instagram-icon.png" alt="" /> 
 			</div>
 		</a>
-		<a href="https://www.facebook.com/UOWVMF" target="new">
+		<a href="#" class="popper"  data-popbox="facebookPop">
 			<div class="facebook">
 				<img src="images/facebook.png" alt="" /> 
 			</div>
 		</a>
+
+		<div class="socialMediaFeeds">
+			<div id="facebookPop" class="popboxSM">
+			    <h2>Facebook Feed</h2>
+			    <p></p>
+			</div>
+
+			<div id="twitterPop" class="popboxSM">
+			    <h2>Twitter Feed</h2>
+			    <p></p>
+			</div>
+
+			<div id="instagramPop" class="popboxSM">
+			    <h2>Instagram Feed</h2>
+			    <p><div class="fb-post" data-href="https://www.facebook.com/UOWVMF" data-width="650"></div></p>
+			</div>
+		</div>
 	</section>
 
 	<section class="about" id="about">
