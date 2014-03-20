@@ -3,12 +3,10 @@
 <head>
 	<title>WVMF 2014</title>
 	<meta name="description" content="" />
+
+	<!--Styles-->
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVgGAiX5sMXNmkkFGTB1vfcxJzfomDYmk&sensor=false">
-    </script>
 	<!--Font-Awesome Stylesheet-->
 	<link rel="stylesheet" href="Font-Awesome/css/font-awesome.min.css">
 	<style>
@@ -17,6 +15,59 @@
         font-size:12pt;
       }
     </style>
+
+    <!--Scripts-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVgGAiX5sMXNmkkFGTB1vfcxJzfomDYmk&sensor=false">
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+    	$(function() {
+		    var moveLeft = 0;
+		    var moveDown = 0;
+		    $('a.popper').hover(function(e) {
+		   
+		        var target = '#' + ($(this).attr('data-popbox'));
+		         
+		        $(target).show();
+		        moveLeft = $(this).outerWidth();
+		        moveDown = ($(target).outerHeight() / 2);
+		    }, function() {
+		        var target = '#' + ($(this).attr('data-popbox'));
+		        $(target).hide();
+		    });
+		 
+		    $('a.popper').mousemove(function(e) {
+		        var target = '#' + ($(this).attr('data-popbox'));
+		         
+		        leftD = e.pageX + parseInt(moveLeft);
+		        maxRight = leftD + $(target).outerWidth();
+		        windowLeft = $(window).width() - 40;
+		        windowRight = 0;
+		        maxLeft = e.pageX - (parseInt(moveLeft) + $(target).outerWidth() + 20);
+		         
+		        if(maxRight > windowLeft && maxLeft > windowRight)
+		        {
+		            leftD = maxLeft;
+		        }
+		     
+		        topD = e.pageY - parseInt(moveDown);
+		        maxBottom = parseInt(e.pageY + parseInt(moveDown) + 20);
+		        windowBottom = parseInt(parseInt($(document).scrollTop()) + parseInt($(window).height()));
+		        maxTop = topD;
+		        windowTop = parseInt($(document).scrollTop());
+		        if(maxBottom > windowBottom)
+		        {
+		            topD = windowBottom - $(target).outerHeight() - 20;
+		        } else if(maxTop < windowTop){
+		            topD = windowTop + 20;
+		        }
+		     
+		        $(target).css('top', topD).css('left', leftD);
+		    });
+		});
+    </script>
 </head>
 
 <body>
@@ -238,43 +289,107 @@
 		</div>
 
 		<div class="events">
-			<a href="#event1" class="event1">
-				<div class="event event1">
-					<h3>Absolute<br /> Improv</h3>
-				</div>
+			<a href="#" class="popper event event1" data-popbox="pop1">
+				<h3>Absolute<br /> Improv</h3>
 			</a>
 
-			<a href="#event2" class="event2">
-				<div class="event event2">
-				</div>
+			<a href="#" class="popper event2" data-popbox="pop2">
+				<div class="event event2"></div>
 			</a>
 
-			<a href="#event3" class="event3">
-				<div class="event event3">
-				</div>
+			<a href="#" class="popper event3" data-popbox="pop3">
+				<div class="event event3"></div>
 			</a>
 
-			<a href="#event4" class="event4">
-				<div class="event event4">
-				</div>
+			<a href="#" class="popper event4" data-popbox="pop4">
+				<div class="event event4"></div>
 			</a>
 
-			<a href="#event5" class="event5">
-				<div class="event event5">
-				</div>
+			<a href="#" class="popper event5" data-popbox="pop5">
+				<div class="event event5"></div>
 			</a>
 
-			<a href="#event6" class="event6">
-				<div class="event event6">
-				</div>
+			<a href="#" class="popper event6" data-popbox="pop6">
+				<div class="event event6"></div>
 			</a>
 
-			<a href="#event7" class="event7">
-				<div class="event event7">
-				</div>
+			<a href="#" class="popper event7" data-popbox="pop7">
+				<div class="event event7"></div>
 			</a>
 		</div>
 
+		<div class="eventPop">
+			<div id="pop1" class="popbox">
+			    <h2>Absolute Improv</h2>
+			    <p>This is an example popbox.</p>
+			</div>
+
+			<div id="pop2" class="popbox">
+			    <h2>Craft Center</h2>
+			    <p><span>Screen print your own Willamette Valley Music Festival T-Shirt with the Craft Center! Bring your own shirt or use one of our provided shirts (first come, first served). There will also be paper available so you can make your own WVMF poster!</span><br /><br />
+
+				The Craft Center offers a comprehensive arts program open to UO students, faculty and staff, as well as Eugene community members. <br /><br />
+
+				The Center is both educational and recreational, encouraging all levels of interest, from beginning hobbyist to serious artist. With well-equipped studios and extensive workshops in most areas of the visual arts, the Center augments and compliments the educational opportunities available at the University of Oregon.<br /><br />
+
+				We provide studio space and tools in seven areas: Fiber, Wood, Ceramics, Printmaking, Jewelry, Photography, and Glassblowing. Every term, the Craft Center also offers a series of classes that students, staff, alumni, and general public can take. Please visit our website at www.craftcenter.uoregon.edu for more information about classes.<br /><br />
+
+				We are open Monday-Thursday (10 am-10 pm), Friday-Saturday (10 am-6 pm), Sunday (12 pm-5:30 pm)</p>
+			</div>
+
+			<div id="pop3" class="popbox">
+				    <h2>Ethos Open Mic</h2>
+				    <p><img src="" alt="" /></p>
+			</div>
+
+			<div id="pop4" class="popbox">
+			    <h2>Salsa Libre</h2>
+			    <p style="font-size:.8em">
+			    <span>Learn how to dance Salsa at our workshop hosted by UO Salsa Libre!</span><br /><br />
+				Salsa Libre was established in May 2013 by two passionate salsa students, Ben Reid and Maya Benezer. They met in Florabelle Moses's salsa class at the University of Oregon and bonded over their mutual love of salsa dancing. Once they became active dancers in Eugene's Latin dance scene, it quickly registered that there was a split between the students learning in class and the more experienced dancers in the community. 
+				Approximately 40-60 students filed through Florabelle's dance classes, but few (if any!) found the courage to hit the dance floor at social dances. "It's an intimidating experience," explained one student. "When you go out and everyone's so much better than you are. You feel out of your league." <br /><br />
+
+				Salsa Libre is here to bridge that gap. <br />
+				We want to help those who want to feel confident dancing salsa, bring together students with those same goals, and foster excitement for dance. <br /><br />
+
+				Every single person should have the opportunity to feel free to completely liberate themselves, and we've found salsa dancing to be an incredible outlet. For anyone who loves to dance, they know that it is one of the most freeing, exciting forms of self-expression. By teaching, growing, and working together, we hope you'll gain the confidence to become inspiring people through dance. <br /><br />
+
+				The most daring or sensual dancers were once beginners learning the same basic steps, turns, and styling that we teach during our lessons. It's all about putting in the time and effort--that's the key to success in anything, and it is especially true in salsa. <br /><br />
+				Our student instructors are dedicated to building the confidence you need to strut your stuff at social dancing, providing plenty of opportunities during our own social dances every Wednesday. We also encourage members to go out, take classes, social dance at the Vet's Club or the Oregon Ballroom Dance Club, and bring back what you learn! If confident enough, you can even become a Libre Instructor yourself. Together, we're building a community of student salseros (salsa dancers) who will add to Eugene's ever-growing salsa scene in creative, exciting ways.
+				</p>
+			</div>
+
+			<div id="pop5" class="popbox">
+			    <h2>Think Play</h2>
+			    <p><span>Think.Play and JSO present a Super Smash Bros. tournament and more games in the Taylor Lounge!</span> <br /><br />
+				Mission Statement: Think.Play is a group of faculty, staff, students, and community members that facilitates dialogue and critical engagement with video games through play at the University of Oregon. We run open play sessions, host guest speakers from within the academic and professional communities, publicize relevant events on campus and in the local community, and provide a place for students, scholars, and professionals across disciplines to share information.</p>
+			</div>
+
+			<div id="pop6" class="popbox">
+			    <h2>WACAI Drum Circle</h2>
+			    <p><span>This workshop will lead 30 participants through instruction and education about the art of West African drumming. </span><br /><br />
+
+				Mission Statement:
+				Sharing the joy and passion of West African culture through vibrant educational programs focusing on music and dance, advocating for authentic source artists from Guinea and creating charitable projects in Guinea that promote artistic, emotional and physical health.<br /><br />
+				General Information:<br />
+				The West African Cultural Arts Institute (WACAI), located in Eugene, Oregon was created and incorporated as a non-profit organization in January 2011 by co-creators Alseny Yansane & Andrea DiPalma Yansane. We are very excited about expanding our educational programs here in the US as well as being able to better serve communities in Guinea, West Africa. Thank you for your continual support!
+				</p>
+			</div>
+
+			<div id="pop7" class="popbox">
+			    <h2>Zany Zoo</h2>
+			    <p>
+			    <span>Stop by the Zany Zoo on Collier Lawn to learn about exotic animals!</span><br /><br />
+				Our Mission:<br />
+				At Zany Zoo, a locally owned and operated exotic and full service pet store, we continually strive to provide high quality pets, products, and services by maintaining a clean, knowledgeable, and exciting environment for pets and their people.  We are also very active members in our community with offering educational presentations onsite and off, including a free “Hands on” petting zoo every weekend for kid’s young and the young at heart.<br /><br />
+				About Us:<br />
+				Zany Zoo Pets was established in 1991 in Eugene, OR.  The purpose of the store is to offer an alternative to the bad image most pet stores have earned.  We try to do this by setting up an environment where people make educated decisions about not only the kind of pet that fits into their family, but to also educate the public about proper care of the animals.  Through the years, that has remained the primary focus of the store.  <br /><br />
+
+				Taking over that vision with their own twist in May of 2004, Nate and Abbie McClain purchased the store.  They had a great challenge ahead of them but with the help of a dedicated and knowledgeable crew, they made the transition a smoothly as possible.  In August 2005, the store was relocated to the corner of W 11th and Bailey Hill.  Tragedy struck on November 6th, 2009 when the store sustained a fire.  After a thorough investigation, no cause was ever determined.  The store reopened November 5th, 2010 in its present location.<br /><br />
+				Zany Zoo remains committed to the community by offering only local, family raised puppies, kittens, birds, small animals, captive bred reptiles and exotics. Of course we also carry all of the supplies and all appropriate food to provide for  your pet's well being, care and play. Our community presentations and free weekend petting zoos are our way of not only entertaining potential animal owners, but educating the community about proper animal care and responsible pet ownership.
+				</p>
+			</div>
+		</div>
 	</section>
 
 	<section class="video" id="video">
