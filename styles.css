@@ -681,13 +681,15 @@ section.activities {
 }
 
 .event h3 {
-	font-size: 12pt;
+	font-size: 30pt;
 	text-align: center;
 	text-decoration: underline;
 }
 
 .event1, .event2, .event3, .event4, .event5, .event6, .event7  {
-	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, .3);
 }
 
 .event1:hover, .event2:hover, .event3:hover, .event4:hover, .event5:hover, .event6:hover, .event7:hover  {
@@ -695,41 +697,38 @@ section.activities {
 }
 
 .event1 {
-	background:url('images/.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
+	background-image:url('images/.png');
 }
 
 .event2 {
-	background:url('images/craftcenterimg.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image:url('images/craftcenterimg.png');
+	
 }
 
 .event3 {
-	background:url('images/.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
+	background-image:url('images/.png');
+	
 }
 
 .event4 {
-	background:url('images/salsalibreimg.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
+	background-image:url('images/salsalibreimg.png');
+	
 }
 
 .event5 {
-	background:url('images/.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
+	background-image:url('images/ThinkPlayImg.png');
+	
 }
 
 .event6 {
-	background:url('images/.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
+	background-image:url('images/WACAI.png');
+	
 }
 
 .event7 {
-	background:url('images/.png') rgba(255, 255, 255, .3);
-	background-repeat: no-repeat;
+	background-image:url('images/zanyZooImg.png');
+	
 }
-
 
 /*
 ---------------------------------------------

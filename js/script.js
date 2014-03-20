@@ -11,6 +11,17 @@ $(document).ready(function() {
 		$('.profiles div.' + bandName).stop().animate({'opacity':'1'}); 	
 	});
 
+  $('#event a').click(function() {
+    console.log('click!');
+
+    // hide anything else in there
+    $('.eventInfo div').animate({'opacity':'0'});
+
+    // show the band clicked
+    eventName = this.className;
+    $('.eventInfo div.' + eventName).stop().animate({'opacity':'1'});   
+  });
+
   // Initialize goog map
   mapInit();
 });
