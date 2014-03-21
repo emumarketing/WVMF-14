@@ -842,15 +842,14 @@ Social Media Pop Up Boxes
     display: none;
     position:static;
     z-index: 99999;
-    width: 67%;
+    width: 41.53%;
     padding: 10px;
-    background: rgba(0, 0, 0, .7);
+    background: rgba(255, 255, 255, .9);;
     color: #fff;
     border: 1px solid #4D4F53;
     margin: 0;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
     box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
-    border-radius:15px;
 }
 
 .popboxSM h2
@@ -862,12 +861,11 @@ Social Media Pop Up Boxes
     width: 100%;
     margin: -10px 0px 8px -10px;
     padding: 5px 10px;
-    border-radius:10px 10px 0 0;
 }
 
-.socialMediaFeeds {
-	width:60%;
-	z-index: 999999;
+.socialMediaFeeds .popboxSM{
+	width:40.5%;
+	z-index: 9999999;
 	position: absolute;
 	overflow: visible;
 }

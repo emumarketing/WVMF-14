@@ -79,19 +79,22 @@ function mapInit() {
 $(function() {
     var moveLeft = 0;
     var moveDown = 0;
-    $('a.popper').hover(function(e) {
+
+    $('a.popper').click(function(e) {
    
         var target = '#' + ($(this).attr('data-popbox'));
          
         $(target).show();
         moveLeft = $(this).outerWidth();
         moveDown = ($(target).outerHeight() / 2);
-    }, function() {
-        var target = '#' + ($(this).attr('data-popbox'));
-        $(target).hide();
+    });
+
+    $('a.popper').click(function (event) {
+      event.preventDefault();
+      // or use return false;
     });
  
-    $('a.popper').mousemove(function(e) {
+    /*$('a.popper').mousemove(function(e) {
         var target = '#' + ($(this).attr('data-popbox'));
          
         leftD = e.pageX + parseInt(moveLeft);
@@ -118,6 +121,6 @@ $(function() {
         }
      
         $(target).css('top', topD).css('left', leftD);
-    });
+    });*/
 });
 
