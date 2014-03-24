@@ -82,10 +82,11 @@ $(function() {
 
         $('.popboxSM').hide();
         $('.popbox').hide();
+
         
         $(target).show('#');
 
-        event.preventDefault();
+        e.preventDefault();
     });
 });
 
