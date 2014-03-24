@@ -738,7 +738,7 @@ Video Section
 
 section.video {
 	background:#000;
-	/*background: url('images/');*/
+	background: url('images/djImg.png');
 	background-size:cover;
 	position: relative;
 	margin:0 -10px;
