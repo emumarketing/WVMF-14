@@ -59,7 +59,6 @@ nav a:hover {
 
 nav img {
 	top: 55px;
-	width: 98px;
 	height: 80px;
 	z-index: 1111;
  	margin-left: -15px;
@@ -201,10 +200,10 @@ Artist Home Section Styles
 }
 
 .apTxt {
-	font-size: 70pt;
-	font-weight: 700;
-	max-width:400px;
-	margin:125px 0 -10px 150px;
+	font-size: 55pt;
+	font-weight: 600;
+	max-width:300px;
+	margin:115px 0 -10px 170px;
 	text-align: center;
 	line-height: 55px;
 	float:left;
@@ -215,18 +214,16 @@ Artist Home Section Styles
 	color:white;
 }
 
-.apTxt a:hover {
-	color:#000044;
-}
 
 .apTxtSm {
-	font-size: 53pt;
+	font-size: 43pt;
 }
 
 .apTxt ul {
 	font-size: 20pt;
 	list-style: none;
 	line-height: 36pt;
+	margin-left:-40px;
 }
 
 .apTxt li {
