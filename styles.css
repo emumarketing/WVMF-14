@@ -290,10 +290,6 @@ Artist Home Section Styles
   margin-left: 25px;
 }
 
-#bandlist {
-	line-height: 1em;
-}
-
 .socialMediaIcon {
 	text-decoration: none;
 	color:white;
@@ -311,6 +307,10 @@ Artist Home Section Styles
 Band Name Link Styles
 ------------------------------------------
 */
+#bandlist {
+	line-height: 1em;
+}
+
 #bandlist li a {
 	width:300px;
 	display: block;
@@ -536,7 +536,7 @@ section.social div {
 
 /*
 ------------------------------------------
-Archives Home Section Styles
+About Home Section Styles
 ------------------------------------------
 */
 section.about {
@@ -759,6 +759,10 @@ section.video {
 	border-radius: 20px;
 }
 
+.m {
+	display: none;
+}
+
 /*
 ---------------------------------------------
 Directions Section
@@ -862,5 +866,15 @@ Social Media Pop Up Boxes
 	z-index: 9999999;
 	position: absolute;
 	overflow: visible;
+}
+
+/*
+-----------------------------------
+	Hide Mobile Nav Menu
+-----------------------------------
+*/
+
+.meny {
+	display: none;
 }
 
