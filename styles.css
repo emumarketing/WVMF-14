@@ -201,7 +201,7 @@ Artist Home Section Styles
 
 .apTxt {
 	font-size: 55pt;
-	font-weight: 600;
+	font-weight: 700;
 	max-width:300px;
 	margin:115px 0 -10px 170px;
 	text-align: center;
@@ -747,12 +747,11 @@ section.video {
 
 /* video block */
 .vid {
-	font-size: 12pt;
-	font-weight: 700;
 	position: relative;
-	margin:50px 0 0 490px;
-	float:left;
+	margin:0 auto;
+	width:703px;
 	z-index: 9999;
+	padding:55px 0 0 0;
 }
 
 .vid iframe {
