@@ -352,7 +352,7 @@ section.activities {
 	height: 320px;
 	margin-top: -150px;
 	border-top: 8px solid white;
-
+	overflow: scroll;
 }
 
 .activitiesTxt {
@@ -428,7 +428,6 @@ section.activities {
 
 .event7 {
 	background-image:url('../images/zanyZooImg.png');
-	
 }
 
 /*
@@ -436,10 +435,6 @@ section.activities {
 Pop Up Boxes
 ---------------------------------------------
 */
-.popbox {
-	overflow: scroll;
-}
-
 .popbox h2
 {
     font-size: 12px;
@@ -452,7 +447,7 @@ Pop Up Boxes
 }
 
 .eventPop {
-	height:10%;
+	height:auto;
 }
 
 /*
