@@ -476,12 +476,18 @@ section.video {
 }
 
 .m {
-	display: block;
+	display:none;
 }
 
 .f {
 	display: none;
 }
+
+.mw {
+	display:block;
+}
+
+
 
 /*
 ------------------------------------------

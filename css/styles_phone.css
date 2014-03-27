@@ -225,7 +225,7 @@ Social Media Section Styles
 ------------------------------------------
 */
 section.social {
-	margin-top:-285px;
+	margin-top:-310px;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -235,18 +235,18 @@ section.social {
 
 .leftSection {
 	height: 250px;
-	width:41.25%;
+	width:40%;
 	background:url('../images/concert-small.jpg');
 	background-repeat: no-repeat;
-	margin-left: -153px;
+	margin-left: 0px;
 }
 
 .smTxtSm {
 	font-size: 18pt;
-	width:200px;
+	width:180px;
 	line-height: 30px;
 	float:left;
-	margin-left:0;
+	margin-left:-20px;
 }
 
 .wider {
@@ -254,12 +254,12 @@ section.social {
 }
 
 .smTxtMin {
-	font-size: 8pt;
+	font-size: 6pt;
 }
 
 .twitter {
 	height: 120px;
-	width:27%;
+	width:26.5%;
 }
 
 .twitter img {
@@ -277,7 +277,7 @@ section.social {
 
 .facebook {
 	height: 122px;
-	width:56.6%;
+	width:57%;
 }
 
 .facebook img {
@@ -310,13 +310,13 @@ section.about {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top:-140px;
+	margin-top:-193px;
 }
 
 .aTxt {
 	font-size: 20pt;
 	width:200px;
-	margin:50px 5px;
+	margin:50px 0;
 	line-height: 25px;
 }
 
@@ -327,24 +327,32 @@ section.about {
 .pressRelease {
 	margin-top: 25px;
 	overflow: scroll;
-	height:45%;
+	height:25%;
+	width:75%;
 }
 
 .pressRelease h3 {
-	margin-left:20px;
+	margin-left:10px;
 }
 
 .pressRelease h4 {
-	margin-left:20px;
+	margin-left:10px;
 	font-size:9pt;
+}
+
+.pressRelease h6 {
+	display: none;
 }
 
 .pressRelease p {
 	font-size: 8pt;
+	margin-left:10px;
+	margin-right:10px;
 }
 
 .pressRelease ul {
 	font-size: 8pt;
+	margin-left:10px;
 }
 
 /*
@@ -358,41 +366,47 @@ section.activities {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 320px;
-	margin-top: -150px;
+	height: 216px;
+	margin-top: -215px;
+	clear: both;
+	float: left;
 	border-top: 8px solid white;
 	overflow: scroll;
 }
 
 .activitiesTxt {
-	font-size: 25pt;
-	width:150px;
-	margin:15px;
+	font-size: 18pt;
+	width:120px;
+	margin:5px;
 	line-height: 20px;
-	margin-top:50px;
+	margin-top:25px;
 }
 
 .activitiesTxtSm {
-	font-size: 15pt;
+	font-size: 12pt;
+}
+
+span.aTxtMin {
+	font-size: 6pt;
 }
 
 
 /* activities events block */
 .events {
 	font-size: 10pt;
-	width: 60%;
-	height: 80%;
+	width: 55%;
+	height: 70%;
 	overflow: scroll;
-	margin-top:25px;
+	margin-top:15px;
 }
 
 .event {
-	width:40%;
-	height:43%;
+	width:35%;
+	height:38%;
 }
 
 .event h3 {
-	font-size: 12pt;
+	font-size: 7pt;
 }
 
 .event1, .event2, .event3, .event4, .event5, .event6, .event7  {
@@ -470,13 +484,14 @@ section.video {
 	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 350px;
+	height: 300px;
+	margin-top: 16px;
 }
 
 /* video block */
 .vid {
-	width:350px;
-	height:220px;
+	width:320px;
+	height:200px;
 }
 
 .vid iframe {
@@ -486,6 +501,10 @@ section.video {
 
 .m {
 	display: block;
+}
+
+.mw {
+	display:none;
 }
 
 .f {
@@ -507,13 +526,30 @@ footer{
 }
 
 .footerIcons {
-	width:480px;
+	width:320px;
 }
 
 .footerIcons img {
-	margin:10px;
+	margin:5px;
 }
 
 .mhide {
 	display: none;
+}
+
+/*
+---------------------------------------------
+Directions Section
+---------------------------------------------
+*/
+
+section.directions {
+	background: #000;
+	height: 300px;
+	position: relative;
+	z-index: 5000;
+	margin: 0 0 0 -10px;
+	margin-bottom: 8px solid white;
+	background-size: cover;
+	width: 100.4%;
 }
