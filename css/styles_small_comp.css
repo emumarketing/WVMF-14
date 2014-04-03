@@ -273,6 +273,10 @@ section.about {
 	top:0;
 }
 
+.mhide2 {
+	display: none;
+}
+
 .smTxtMin {
 	font-size: 8pt;
 }
