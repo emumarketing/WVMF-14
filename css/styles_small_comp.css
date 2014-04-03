@@ -222,7 +222,7 @@ section.social {
 	width:42%;
 	background:url('../images/concert-small.jpg');
 	background-repeat: no-repeat;
-	margin-left:-350px;
+	margin-left:0px;
 }
 
 .twitter {
