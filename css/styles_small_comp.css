@@ -176,10 +176,6 @@ a.band12:hover {
 	background:url('../images/mozzokushtxtblue.png');
 }
 
-.mhide {
-	display: none;
-}
-
 /* band profile block */
 .profiles {
 	height:55%;
@@ -275,6 +271,10 @@ section.about {
 	background-repeat: no-repeat;
 	background-size: cover;
 	top:0;
+}
+
+.smTxtMin {
+	font-size: 8pt;
 }
 
 .aTxt {
