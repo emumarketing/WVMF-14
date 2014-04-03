@@ -1,0 +1,491 @@
+body {
+	width:100%;
+}
+
+#fullpagewrap {
+	width:100.5%;
+}
+
+
+/*
+------------------------------------------
+Parallax Styles
+------------------------------------------
+*/
+header #container {
+	margin-left:0;
+	width: 110%;
+}
+
+.scene {
+	width:120%;
+}
+
+.layer:nth-child(2) {
+  opacity: 1;
+  margin-top:30px;
+  margin-left:-100px;
+  z-index: 5555;
+}
+
+.layer:nth-child(3) {
+  opacity: 1;
+}
+
+.layer:nth-child(4) {
+  opacity: 1;
+}
+/*
+------------------------------------------
+Artist Home Section Styles
+------------------------------------------
+*/
+
+.artists {
+	margin:500px 0 0 -10px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height:850px;
+}
+
+.apTxt {
+	font-size: 25pt;
+	line-height: 25px;
+	margin-left:50px;
+	margin-top: 75px;
+}
+.apTxtSm {
+	font-size: 20pt;
+}
+
+#bandlist {
+	line-height: 1em;
+	margin-top:0px;
+}
+
+#bandlist li a {
+	width:300px;
+	display: block;
+}
+
+a.band1 {
+	background:url('../images/nightbeatstxt.png');
+	height: 40px;
+}
+
+a.band1:hover {
+	background:url('../images/nightbeatstxtblue.png');
+}
+
+a.band2 {
+	background:url('../images/wampiretxt.png');
+	height:46px;
+}
+
+a.band2:hover {
+	background:url('../images/wampiretxtblue.png');
+}
+
+a.band3 {
+	background:url('../images/blackpistolfiretxt.png');
+	height:40px;
+}
+
+a.band3:hover {
+	background:url('../images/blackpistolfiretxtblue.png');
+}
+
+a.band4 {
+	background:url('../images/burninmoonlighttxt.png');
+	height:30px;
+}
+
+a.band4:hover {
+	background:url('../images/burninmoonlighttxtblue.png');
+}
+
+a.band5 {
+	background:url('../images/goldfoottxt.png');
+	height:40px;
+}
+
+a.band5:hover {
+	background:url('../images/goldfoottxtblue.png');
+}
+
+a.band6 {
+	background:url('../images/mindthegaptxt.png');
+	height:40px;
+}
+
+a.band6:hover {
+	background:url('../images/mindthegaptxtblue.png');
+}
+
+a.band7 {
+	background:url('../images/greengarterbandtxt.png');
+	height:32px;
+}
+
+a.band7:hover {
+	background:url('../images/greengarterbandtxtblue.png');
+}
+
+a.band8 {
+	background:url('../images/divisitxt.png');
+	height:48px;
+}
+
+a.band8:hover {
+	background:url('../images/divisitxtblue.png');
+}
+
+a.band9 {
+	background:url('../images/hungryskinnytxt.png');
+	height:35px;
+}
+
+a.band9:hover {
+	background:url('../images/hungryskinnytxtblue.png');
+}
+
+a.band10 {
+	background:url('../images/skycountrytxt.png');
+	height:42px;
+}
+
+a.band10:hover {
+	background:url('../images/skycountrytxtblue.png');
+}
+a.band11 {
+	background:url('../images/ontherockstxt.png');
+	height:40px;
+}
+
+a.band11:hover {
+	background:url('../images/ontherockstxtblue.png');
+}
+
+a.band12 {
+	background:url('../images/mozzokushtxt.png');
+	height:40px;
+}
+
+a.band12:hover {
+	background:url('../images/mozzokushtxtblue.png');
+}
+
+.mhide {
+	display: none;
+}
+
+/* band profile block */
+.profiles {
+	height:55%;
+	width:50%;
+	margin-top:75px;
+	font-size: 8pt;
+	overflow: scroll;
+}
+
+.profiles div img {
+	display: none;
+}
+
+.profiles div h2 {
+  margin-left: 15px;
+}
+
+.profiles div p {
+	width:90%;
+	font-size: 8pt;
+  margin-left: 15px;
+  margin-right:15px;
+  overflow: scroll;
+}
+
+/*
+------------------------------------------
+Social Media Section Styles
+------------------------------------------
+*/
+section.social {
+	margin-top:-255px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top:8px solid white;
+}
+
+.leftSection {
+	width:42%;
+	background:url('../images/concert-small.jpg');
+	background-repeat: no-repeat;
+	margin-left:-350px;
+}
+
+.twitter {
+	width:27.7%;
+}
+
+.twitter img {
+	width:100px;
+}
+
+.instagram {
+	width:28%;
+}
+
+.instagram img {
+	width:100px;
+}
+
+.facebook {
+	width:56.9%;
+}
+
+.facebook img {
+	margin-top: 55px;
+	width:100px;
+}
+
+/*
+---------------------------------------------
+Social Media Pop Up Boxes
+---------------------------------------------
+*/
+.popboxSM {
+    width: 38%;
+    height:92%;
+}
+
+.socialMediaFeeds .popboxSM{
+	width:38%;
+	overflow: scroll;
+}
+
+/*
+------------------------------------------
+About Home Section Styles
+------------------------------------------
+*/
+section.about {
+	background: url('../images/Singer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	top:0;
+}
+
+.aTxt {
+	font-size: 20pt;
+	width:200px;
+	margin:90px 50px;
+	line-height: 25px;
+}
+
+.aTxtMin {
+	font-size: 14pt;
+}
+
+.pressRelease {
+	margin-top: 90px;
+	overflow: scroll;
+	height:45%;
+}
+
+.pressRelease h3 {
+	margin-left:20px;
+}
+
+.pressRelease h4 {
+	margin-left:20px;
+	font-size:9pt;
+}
+
+.pressRelease p {
+	font-size: 8pt;
+}
+
+.pressRelease ul {
+	font-size: 8pt;
+}
+
+/*
+---------------------------------------------
+Activities Section
+---------------------------------------------
+*/
+
+section.activities {
+	background: url('../images/skateboards.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 520px;
+	margin-top: -150px;
+	border-top: 8px solid white;
+	overflow: scroll;
+}
+
+
+/* activities events block */
+.events {
+	font-size: 10pt;
+	width: 60%;
+	height: 80%;
+	overflow: scroll;
+	margin-top:25px;
+}
+
+.event {
+	width:25%;
+	height:43%;
+}
+
+.event h3 {
+	font-size: 12pt;
+}
+
+.event1, .event2, .event3, .event4, .event5, .event6, .event7  {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.event1:hover, .event2:hover, .event3:hover, .event4:hover, .event5:hover, .event6:hover, .event7:hover  {
+	background-color:#999;
+}
+
+.event1 {
+	background-image:url('../images/.png');
+}
+
+.event2 {
+	background-image:url('../images/craftcenterimg.png');
+	
+}
+
+.event3 {
+	background-image:url('../images/EthosImg.png');
+	
+}
+
+.event4 {
+	background-image:url('../images/salsalibreimg.png');
+	
+}
+
+.event5 {
+	background-image:url('../images/ThinkPlayImg.png');
+	
+}
+
+.event6 {
+	background-image:url('../images/WACAI.png');
+	
+}
+
+.event7 {
+	background-image:url('../images/zanyZooImg.png');
+}
+
+/*
+---------------------------------------------
+Pop Up Boxes
+---------------------------------------------
+*/
+.popbox h2
+{
+    font-size: 12px;
+}
+
+.popbox p
+{
+    text-transform: none;
+    font-size: .7em;
+}
+
+.eventPop {
+	height:auto;
+}
+
+/*
+---------------------------------------------
+Video Section
+---------------------------------------------
+*/
+
+section.video {
+	background: url('../images/djImg.png');
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+/* video block */
+.vid {
+	width:350px;
+	height:220px;
+}
+
+.vid iframe {
+	border:4px solid white;
+	border-radius: 20px;
+	margin-left:-180px;
+}
+
+.m {
+	display:none;
+}
+
+.f {
+	display: block;
+}
+
+.mw {
+	display:none;
+}
+
+
+
+/*
+------------------------------------------
+Footer Styles
+------------------------------------------
+*/
+
+footer{
+	text-align: center;
+}
+
+.footerLinks {
+	width:480px;
+}
+
+.footerIcons {
+	width:480px;
+}
+
+.footerIcons img {
+	margin:10px;
+}
+
+/*
+---------------------------------------------
+Directions Section
+---------------------------------------------
+*/
+
+section.directions {
+	background: #000;
+	height: 400px;
+	position: relative;
+	z-index: 5000;
+	margin: 0 0 0 -10px;
+	margin-bottom: 8px solid white;
+	background-size: cover;
+	width: 100.4%;
+}
