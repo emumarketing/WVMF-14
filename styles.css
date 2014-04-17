@@ -827,11 +827,12 @@ Pop Up Boxes
 }
 
 .eventPop {
-	width:35%;
-	height:10%;
+	width:34%;
+	height:98%;
 	margin:10px 10px;
 	z-index:99999;
 	position: absolute;
+	overflow: scroll;
 }
 
 
