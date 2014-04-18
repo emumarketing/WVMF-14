@@ -249,7 +249,7 @@
 
 			<div id="facebookPop" class="popboxSM">
 				<h2>Facebook Feed</h2>
-			    <iframe src="http://www.facebook.com/connect/connect.php?id=UOWVMF&amp;connections=0&amp;stream=1" style="border: none; width: 500px; height: 340px;" frameborder="0" scrolling="no"></iframe>	
+			    <iframe src="http://www.facebook.com/connect/connect.php?id=UOWVMF&amp;connections=0&amp;stream=1" style="border: none; width: 500px; height: 340px;" frameborder="0" scrolling="no" data-max-age="5"></iframe>	
 			</div>
 		</div>
 	</section>
@@ -457,5 +457,23 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery/jquery-1.11.0.min.js"><\/script>')</script>
 	<script src="js/script.js"></script>
+
+	<script>
+	(function(d){
+	  var iframe = d.body.appendChild(d.createElement('iframe')),
+	  doc = iframe.contentWindow.document;
+
+	  // style the iframe with some CSS
+	  iframe.style.cssText = "position:absolute;width:200px;height:100px;left:0px;";
+	  
+	  doc.open().write('<body onload="' + 
+	  'var d = document;d.getElementsByTagName(\'head\')[0].' + 
+	  'appendChild(d.createElement(\'script\')).src' + 
+	  '=\'\/path\/to\/file\'">');
+	  
+	  doc.close(); //iframe onload event happens
+
+	  })(document);
+	</script>
 	</div>
 </body>
