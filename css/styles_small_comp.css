@@ -216,30 +216,17 @@ section.social {
 }
 
 .leftSection {
-	width:42%;
 	background:url('../images/concert-small.jpg');
 	background-repeat: no-repeat;
 	margin-left:0px;
-}
-
-.twitter {
-	width:27.8%;
 }
 
 .twitter img {
 	width:100px;
 }
 
-.instagram {
-	width:28%;
-}
-
 .instagram img {
 	width:100px;
-}
-
-.facebook {
-	width:56.9%;
 }
 
 .facebook img {

@@ -234,12 +234,9 @@ section.social {
 }
 
 .leftSection {
-	height: 250px;
-	width:40%;
-	background:url('../images/concert-small.jpg');
-	background-repeat: no-repeat;
-	margin-left: 0px;
+  display: none;	
 }
+
 
 .smTxtSm {
 	font-size: 18pt;
@@ -257,9 +254,12 @@ section.social {
 	font-size: 6pt;
 }
 
+.rightSection {
+  width: 100%;
+}
+
 .twitter {
 	height: 120px;
-	width:26.5%;
 }
 
 .twitter img {
@@ -268,7 +268,6 @@ section.social {
 
 .instagram {
 	height: 120px;
-	width:28%;
 }
 
 .instagram img {
@@ -277,7 +276,6 @@ section.social {
 
 .facebook {
 	height: 122px;
-	width:57%;
 }
 
 .facebook img {

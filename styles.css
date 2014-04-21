@@ -444,7 +444,7 @@ section.social div {
 
 .leftSection {
 	height: 400px;
-	width:41.53%;
+	width:41%;
 	border-right:8px solid white;
 	float:left;
 	display: block;
@@ -482,9 +482,15 @@ section.social div {
 	border-bottom:1px solid white;
 }
 
+.rightSection {
+  width: 58%;
+  float: right;
+  display: block;
+}
+
 .twitter {
 	height: 180px;
-	width:27.5%;
+	width: 49%;
 	border-right:8px solid white;
   position: relative;
 	float:left;
@@ -502,7 +508,7 @@ section.social div {
 
 .instagram {
 	height: 180px;
-	width:30%;
+	width: 49%;
 	float:left;
 	background:rgba(255,255,255,.2);
 }
@@ -518,7 +524,7 @@ section.social div {
 
 .facebook {
 	height: 213px;
-	width:57.99%;
+	width: 100%;
 	float:left;
 	background:rgba(255,255,255,.2);
 	border-top: 8px solid white;
