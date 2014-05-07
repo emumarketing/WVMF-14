@@ -403,27 +403,27 @@ section.activities {
 
 .event2 {
 	background-image:url('../images/craftcenterimg.png');
-	
+
 }
 
 .event3 {
 	background-image:url('../images/EthosImg.png');
-	
+
 }
 
 .event4 {
 	background-image:url('../images/salsalibreimg.png');
-	
+
 }
 
 .event5 {
 	background-image:url('../images/ThinkPlayImg.png');
-	
+
 }
 
 .event6 {
 	background-image:url('../images/WACAI.png');
-	
+
 }
 
 .event7 {
@@ -519,7 +519,6 @@ Directions Section
 
 section.directions {
 	background: #000;
-	height: 400px;
 	position: relative;
 	z-index: 5000;
 	margin: 0 0 0 -10px;
