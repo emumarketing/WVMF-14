@@ -543,16 +543,18 @@ section.about {
 	background-size:cover;
 	position: relative;
 	margin:0 -10px;
-	height: 1000px;
 	z-index: 5000;
 	border-bottom: 8px solid white;
 	width: 100.4%;
-	overflow: scroll;
 }
 
 .schedule {
 	width:73%;
 	margin:0 auto;
+}
+
+.schedule img {
+	margin-bottom: 25px;
 }
 
 /*
