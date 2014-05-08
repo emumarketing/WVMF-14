@@ -316,110 +316,92 @@ Band Name Link Styles
 	display: block;
 }
 
-a.band1 {
+a.nightbeats {
 	background:url('images/nightbeatstxt.png');
 	height: 40px;
 }
 
-a.band1:hover {
+a.nightbeats:hover {
 	background:url('images/nightbeatstxtblue.png');
 }
 
-a.band2 {
+a.wampire {
 	background:url('images/wampiretxt.png');
 	height:47px;
 }
 
-a.band2:hover {
+a.wampire:hover {
 	background:url('images/wampiretxtblue.png');
 }
 
-a.band3 {
-	background:url('images/blackpistolfiretxt.png');
-	height:40px;
-}
-
-a.band3:hover {
-	background:url('images/blackpistolfiretxtblue.png');
-}
-
-a.band4 {
+a.moonlight {
 	background:url('images/burninmoonlighttxt.png');
 	height:30px;
 }
 
-a.band4:hover {
+a.moonlight:hover {
 	background:url('images/burninmoonlighttxtblue.png');
 }
 
-a.band5 {
+a.goldfoot {
 	background:url('images/goldfoottxt.png');
 	height:40px;
 }
 
-a.band5:hover {
+a.goldfoot:hover {
 	background:url('images/goldfoottxtblue.png');
 }
 
-a.band6 {
+a.thegap {
 	background:url('images/mindthegaptxt.png');
 	height:40px;
 }
 
-a.band6:hover {
+a.thegap:hover {
 	background:url('images/mindthegaptxtblue.png');
 }
 
-a.band7 {
+a.garterband {
 	background:url('images/greengarterbandtxt.png');
 	height:32px;
 }
 
-a.band7:hover {
+a.garterband:hover {
 	background:url('images/greengarterbandtxtblue.png');
 }
 
-a.band8 {
-	background:url('images/divisitxt.png');
-	height:48px;
-}
-
-a.band8:hover {
-	background:url('images/divisitxtblue.png');
-}
-
-a.band9 {
+a.hungryskinny {
 	background:url('images/hungryskinnytxt.png');
 	height:34px;
 }
 
-a.band9:hover {
+a.hungryskinny:hover {
 	background:url('images/hungryskinnytxtblue.png');
 }
 
-a.band10 {
+a.skycountry {
 	background:url('images/skycountrytxt.png');
 	height:42px;
 }
 
-a.band10:hover {
+a.skycountry:hover {
 	background:url('images/skycountrytxtblue.png');
 }
-a.band11 {
+a.ontherocks {
 	background:url('images/ontherockstxt.png');
 	height:40px;
 }
 
-a.band11:hover {
+a.ontherocks:hover {
 	background:url('images/ontherockstxtblue.png');
 }
 
-a.band12 {
+a.mozzokush {
 	background:url('images/mozzokushtxt.png');
 	height:40px;
 }
 
-a.band12:hover {
+a.mozzokush:hover {
 	background:url('images/mozzokushtxtblue.png');
 }
 
