@@ -478,7 +478,7 @@ section.social div {
 
 .rightSection {
   width: 58%;
-  float: right;
+  float: left;
   display: block;
 }
 
@@ -502,7 +502,7 @@ section.social div {
 
 .instagram {
 	height: 180px;
-	width: 49%;
+	width: 50%;
 	float:left;
 	background:rgba(255,255,255,.2);
 }
